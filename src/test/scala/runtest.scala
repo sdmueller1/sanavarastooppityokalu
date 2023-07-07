@@ -1,6 +1,22 @@
 import scala.io.StdIn.*
 import scala.io.Source
+import org.apache.commons.math3.distribution.*
 @main def run2() =
+  val dirty = FileIO.readDirtyFile("src/dictionary.txt")
+  val dict = LivingDictionary.fromMap(dirty)
+  FileIO.writeFile("src/balls.txt", dict)
+  println("#:##;;;#0.0#;;;#0.0".matches("^.*#:#.*#;;;#[-+]?[0-9]*\\.?[0-9]+#;;;#[-+]?[0-9]*\\.?[0-9]+$"))
+  val dict2 = FileIO.readFile("src/balls.txt")
+  dict2.randomWord.use()
+  println(dict2.words.map(_.relevance).sorted)
+  while
+    val w = dict2.nextWord
+    println(w)
+    readLine() != "qw"
+  do()
+
+
+
   /*val x = WordPicker()
   x.getData
   println("PROCESS:\n" +
@@ -15,12 +31,4 @@ import scala.io.Source
     x.prevCorrect(answer.toUpperCase() == "Y")
     println(x)
   print(x.j)*/
-  val file = Source.fromFile("C:\\Users\\Stefan Mueller\\Downloads\\vocabimporty.txt")
-  val lines = file
-    .getLines()
-    .map(_.trim.split(" = "))
-    .toVector
-    .groupBy(x => x.head)
-    .map(x => x._2.maxBy(y => y.reverse.head.length).mkString("\t"))
-    .filter(n => !n.contains("Sivu") && !n.contains("KAPPALE") && !n.replaceAll("\\s","").forall(_.isDigit))
-  lines.foreach(println)
+

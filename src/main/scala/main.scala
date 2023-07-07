@@ -33,7 +33,7 @@ def gameRunner(s:String):Unit =
       println("Kiitos!")
       System.exit(69)
     case "1" =>
-      t
+      //translateGame(1)
     case _ =>
       println("Command not recognized. Please try again: ")
     gameRunner(readLine())
