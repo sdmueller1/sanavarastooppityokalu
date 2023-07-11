@@ -1,7 +1,10 @@
+import SuomenKieli.Verbi
+
 import scala.io.StdIn.*
 import scala.io.Source
 import org.apache.commons.math3.distribution.*
-import java.nio.file.{Paths, Files}
+
+import java.nio.file.{Files, Paths}
 import java.nio.charset.StandardCharsets
 import java.io.*
 @main def run2() =
@@ -39,5 +42,7 @@ import java.io.*
   do()
   FileIO.writeFile("src/scores.txt", dict)
 @main def run3() =
-  val v = Verb.getType("halutaffa")
-  println(v.getClass)
+  println("test".dropRight(1))
+  val v = Verbi.getType("haluta")
+  println(v.back)
+  println(v.minä)
