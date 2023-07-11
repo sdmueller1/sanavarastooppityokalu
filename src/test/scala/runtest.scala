@@ -1,34 +1,43 @@
 import scala.io.StdIn.*
 import scala.io.Source
 import org.apache.commons.math3.distribution.*
+import java.nio.file.{Paths, Files}
+import java.nio.charset.StandardCharsets
+import java.io.*
 @main def run2() =
-  val dirty = FileIO.readDirtyFile("src/dictionary.txt")
-  val dict = LivingDictionary.fromMap(dirty)
-  FileIO.writeFile("src/balls.txt", dict)
-  println("#:##;;;#0.0#;;;#0.0".matches("^.*#:#.*#;;;#[-+]?[0-9]*\\.?[0-9]+#;;;#[-+]?[0-9]*\\.?[0-9]+$"))
-  val dict2 = FileIO.readFile("src/balls.txt")
-  dict2.randomWord.use()
-  println(dict2.words.map(_.relevance).sorted)
+  //val dirty = FileIO.readDirtyFile("src/dictionary.txt")
+  //var dict = LivingDictionary.fromMap(dirty)
+  //FileIO.writeFile("src/balls.txt", dict)
+  val dict = FileIO.readFile("src/scores.txt")
   while
-    val w = dict2.nextWord
-    println(w)
-    readLine() != "qw"
-  do()
-
-
-
-  /*val x = WordPicker()
-  x.getData
-  println("PROCESS:\n" +
-    "1. Each time you press Enter, a Finnish word will appear.\n" +
-    "2. Type your English translation to the console\n" +
-    "3. Determine whether your answer was correct and tell the system.\n" +
-    "4. Repeat.")
-  while readLine("Press Enter to generate a word. Q to quit.") != "exit" do
-    println(x.chooseNext + "\n" + "-"*15)
+    val w = dict.nextWord
+    println("-"*15 + "\n" + w.word.text + "\n" + "-"*15)
+    dict.tick()
     readLine()
-    val answer = readLine("Correct answer? (Y/N): ")
-    x.prevCorrect(answer.toUpperCase() == "Y")
-    println(x)
-  print(x.j)*/
-
+    print(w.word.definitions.mkString(" | ") + "\nCorrect? (y/n): ")
+    val a = readLine().toLowerCase
+    a match
+      case "y" => w.use(true)
+      case "yy" =>
+        w.use(true)
+        println("Kirjoita suomeks x2")
+        readLine()
+        readLine()
+      case "n" =>2
+        w.use(false)
+        println("Write the word in English twice:")
+        readLine()
+        readLine()
+        println("Kirjoita sanan suomeks kahdesti:")
+        readLine()
+        readLine()
+      case _ => w.use()
+    a match
+      case "r" => println(dict.report)
+      case _ =>
+    a != "q"
+  do()
+  FileIO.writeFile("src/scores.txt", dict)
+@main def run3() =
+  val v = Verb.getType("halutaffa")
+  println(v.getClass)

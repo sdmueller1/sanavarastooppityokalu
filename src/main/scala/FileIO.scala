@@ -1,6 +1,5 @@
 import scala.io.Source
-import java.io.File
-import java.io.PrintWriter
+import java.io.*
 object FileIO:
   // For purpose of initial imports and such
   def readDirtyFile(path:String):Map[String, Vector[String]] =
@@ -13,10 +12,13 @@ object FileIO:
   def readFile(path:String):LivingDictionary =
     val file = Source.fromFile(path)
     var lines = file.getLines().toVector
+    println(lines.length + " original")
     lines = lines.filter(_.matches("^.*#:#.*#;;;#[-+]?[0-9]*\\.?[0-9]+#;;;#[-+]?[0-9]*\\.?[0-9]+$"))
+    println(lines.length + " filtered")
     LivingDictionary(lines.map(LivingWord.fromFileString))
   def writeFile(path:String, dict:LivingDictionary):Unit =
     val file = File(path)
     val writer = PrintWriter(file)
     writer.write(dict.words.map(_.toFileString).mkString("\n"))
+    writer.close()
 

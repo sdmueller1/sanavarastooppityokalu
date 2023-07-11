@@ -2182,4 +2182,47 @@ keirtoajelu#:#sightseeing tour#;;;#0.3#;;;#0.0
 huoltoyhtiö#:#maintenance company#;;;#0.3#;;;#0.0
 lamppu#:#lamp#;;;#0.3#;;;#0.0
 rasvainen#:#fatty###greasy###high fat#;;;#0.3#;;;#0.0
-piha#:#
+piha#:#yard#;;;#0.3#;;;#0.0
+virallinen#:#official#;;;#0.3#;;;#0.0
+siviilisääty#:#marital status#;;;#0.3#;;;#0.0
+varasto#:#store###stock###warehouse#;;;#0.3#;;;#0.0
+päärynä#:#pear#;;;#0.3#;;;#0.0
+vihdoin#:#at last###finally#;;;#0.3#;;;#0.0
+komea#:#handsome#;;;#0.3#;;;#0.0
+Kiina#:#China#;;;#0.3#;;;#0.0
+hirvi#:#elk###moose#;;;#0.3#;;;#0.0
+kurkku kipeä#:#sore throat#;;;#0.3#;;;#0.0
+paikka#:#place; seat###place#;;;#0.3#;;;#0.0
+tavallisesti#:#usually###normally#;;;#0.3#;;;#0.0
+tutustua#:#to get to know###to get acquainted###to meet#;;;#0.3#;;;#0.0
+räntä#:#sleet#;;;#0.3#;;;#0.0
+vuosi#:#year#;;;#0.3#;;;#0.0
+marraskuu#:#November#;;;#0.3#;;;#0.0
+rasvaton#:#fat-free###non-fat#;;;#0.3#;;;#0.0
+kaunis#:#beautiful#;;;#0.3#;;;#0.0
+intonaatio#:#intonation#;;;#0.3#;;;#0.0
+joulupukki#:#Santa Claus#;;;#0.3#;;;#0.0
+laulaa#:#to sing###to sing#;;;#0.3#;;;#0.0
+neuvotella#:#to negotiate###to talk over#;;;#0.3#;;;#0.0
+viideksi#:#by five#;;;#0.3#;;;#0.0
+oikein#:#correct(ly)###right(ly)#;;;#0.3#;;;#0.0
+viikonpäivät#:#weekdays#;;;#0.3#;;;#0.0
+lattia#:#floor#;;;#0.3#;;;#0.0
+automekaanikko#:#car mechanic###mechanic#;;;#0.3#;;;#0.0
+ainoa#:#only#;;;#0.3#;;;#0.0
+on selkeää#:#it’s a fair weather#;;;#0.3#;;;#0.0
+klo (= kello)#:#at…o’clock#;;;#0.3#;;;#0.0
+pehmeä#:#soft###smooth#;;;#0.3#;;;#0.0
+ilmansuunnat#:#compass points#;;;#0.3#;;;#0.0
+muu#:#other###other#;;;#0.3#;;;#0.0
+G + mielestä#:#in sb’s opinion#;;;#0.3#;;;#0.0
+onko sinulla#:#do you have#;;;#0.3#;;;#0.0
+tori#:#market square#;;;#0.3#;;;#0.0
+eri aikaan#:#at different times#;;;#0.3#;;;#0.0
+materiaali#:#material#;;;#0.3#;;;#0.0
+kartta#:#map#;;;#0.3#;;;#0.0
+niin on#:#yes###it is#;;;#0.3#;;;#0.0
+pian#:#soon#;;;#0.3#;;;#0.0
+kuunnella + P#:#to listen#;;;#0.3#;;;#0.0
+muut#:#other(s)###the others#;;;#0.3#;;;#0.0
+tähän#:#(to) here#;;;#0.3#;;;#0.0

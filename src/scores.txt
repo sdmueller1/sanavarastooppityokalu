@@ -1,0 +1,194 @@
+millainen#:#what kind; what is… like#;;;#0.3#;;;#0.0
+huomenna#:#tomorrow#;;;#0.3#;;;#0.0
+helle#:#heat###hot weather#;;;#0.3#;;;#0.0
+eronnut#:#divorced#;;;#0.3#;;;#0.0
+työskennellä#:#to work#;;;#1.0#;;;#0.0
+ystävänpäivä#:#valentines day#;;;#0.3#;;;#0.0
+se#:#it; he###she (colloq.)#;;;#0.3#;;;#0.0
+nähtävyys#:#attraction#;;;#0.3#;;;#0.0
+siksi#:#that’s why###therefore#;;;#0.3#;;;#0.0
+hyönteinen#:#insect#;;;#0.3#;;;#0.0
+Mäkelät#:#the Mäkelä family#;;;#0.3#;;;#0.0
+ennen + P#:#before#;;;#0.3#;;;#0.0
+Turku#:#a city in southwestern Finland#;;;#0.3#;;;#0.0
+hauska#:#fun###pleasant###nice###cool#;;;#0.3#;;;#0.0
+mutta#:#but#;;;#0.3#;;;#0.0
+etunimi#:#first name###given name#;;;#0.3#;;;#0.0
+työpöytä#:#desk; desktop#;;;#0.3#;;;#0.0
+Mitä kieltä sinä puhut?#:#What language do you speak?#;;;#0.3#;;;#0.0
+postpositio#:#postposition#;;;#0.3#;;;#0.0
+sisäänkäynti#:#entrance examination#;;;#0.3#;;;#0.0
+vatkata#:#to whip###to whisk###to beat#;;;#0.3#;;;#0.0
+virkailija#:#official#;;;#0.3#;;;#0.0
+tytär#:#daughter###daughter#;;;#0.3#;;;#0.0
+puhelin#:#telephone#;;;#0.3#;;;#0.0
+vitivalkoinen#:#pure white#;;;#0.3#;;;#0.0
+kaatua#:#to fall#;;;#0.3#;;;#0.0
+kuuntele (kuunnella)#:#listen (to listen)#;;;#0.3#;;;#0.0
+ensi kerta#:#next time#;;;#0.3#;;;#0.0
+villapusero#:#sweater#;;;#0.3#;;;#0.0
+heille (he)#:#to them#;;;#0.3#;;;#0.0
+veitsi#:#knife#;;;#0.3#;;;#0.0
+sisään#:#in###into###inside#;;;#0.3#;;;#0.0
+yleensä#:#generally###in general#;;;#0.3#;;;#0.0
+mennä#:#to go#;;;#0.3#;;;#0.0
+tupakka#:#tobacco###cigarette#;;;#0.3#;;;#0.0
+juhannus#:#midsummer#;;;#0.3#;;;#0.0
+bussilippu#:#bus ticket#;;;#0.3#;;;#0.0
+hedelmä#:#fruit#;;;#0.3#;;;#0.0
+Jyväskylä#:#a city in central Finland#;;;#0.3#;;;#0.0
+jo#:#already#;;;#0.3#;;;#0.0
+päivä#:#day###day#;;;#0.3#;;;#0.0
+jano#:#thirst#;;;#0.3#;;;#0.0
+päättää#:#to decide#;;;#0.3#;;;#0.0
+asiointi#:#running errands#;;;#0.3#;;;#0.0
+opiskelija#:#student#;;;#0.3#;;;#0.0
+käsimatkatavara#:#hand luggage#;;;#0.3#;;;#0.0
+koulu#:#school#;;;#0.39999999999999997#;;;#0.95
+maistuiko ruoka?#:#did you like the food?#;;;#0.3#;;;#0.0
+minua#:#me#;;;#0.3#;;;#0.0
+kitara#:#guitar###guitar#;;;#0.3#;;;#0.0
+olohuone#:#living room###sitting-room#;;;#0.3#;;;#0.0
+itä#:#East#;;;#0.3#;;;#0.0
+tämä#:#this#;;;#0.3#;;;#0.0
+rakastaa#:#to love#;;;#0.3#;;;#0.0
+hauki#:#northern pike#;;;#0.3#;;;#0.0
+koko ajan#:#all the time###all the time#;;;#0.3#;;;#0.0
+allergia#:#allergy#;;;#0.3#;;;#0.0
+kipeä#:#sore#;;;#0.3#;;;#0.0
+kuka#:#who?#;;;#0.3#;;;#0.0
+lento#:#flight#;;;#0.3#;;;#0.0
+paistaa#:#to bake###to roast###to fry#;;;#0.3#;;;#0.0
+tuli#:#fire#;;;#0.3#;;;#0.0
+jänis#:#here#;;;#0.3#;;;#0.0
+edessä#:#in front of#;;;#0.3#;;;#0.0
+joo#:#yeah###yes#;;;#0.3#;;;#0.0
+tasku#:#pocket#;;;#0.3#;;;#0.0
+ikä#:#age#;;;#0.3#;;;#0.0
+asukas#:#inhabitant###resident#;;;#0.3#;;;#0.0
+persoonapronominit#:#personal pronouns#;;;#0.3#;;;#0.0
+ruuhka#:#traffic jam###rush#;;;#0.3#;;;#0.0
+olla kihloissa#:#to be engaged#;;;#0.3#;;;#0.0
+kuski#:#driver#;;;#0.3#;;;#0.0
+keksiä#:#to come up with an idea#;;;#0.3#;;;#0.0
+mökkeillä#:#to spend time at mökki#;;;#0.3#;;;#0.0
+kirjailija#:#writer###author#;;;#0.3#;;;#0.0
+viallinen#:#defective#;;;#0.3#;;;#0.0
+melko#:#quite#;;;#0.3#;;;#0.0
+japani#:#Japanese#;;;#0.49999999999999994#;;;#0.8499999999999999
+niemi#:#peninsula#;;;#0.3#;;;#0.0
+rekkakuski#:#trucker#;;;#0.3#;;;#0.0
+hieman#:#a bit#;;;#0.3#;;;#0.0
+syttyä#:#to light#;;;#0.3#;;;#0.0
+turisti#:#tourist#;;;#0.3#;;;#0.0
+pää kipeä#:#head sore#;;;#0.3#;;;#0.0
+terassi#:#terrace###patio#;;;#0.3#;;;#0.0
+huominen#:#tomorrow#;;;#0.3#;;;#0.0
+monta kertaa#:#many times#;;;#0.3#;;;#0.0
+raha#:#money#;;;#0.3#;;;#0.0
+metalli#:#metal#;;;#0.3#;;;#0.0
+ostos#:#purchase#;;;#0.3#;;;#0.0
+uskaltaa#:#to dare###to have the courage###to have the courage#;;;#0.3#;;;#0.0
+niska#:#neck#;;;#0.3#;;;#0.0
+leipoa#:#to bake#;;;#0.3#;;;#0.0
+mistä#:#where (from)#;;;#0.3#;;;#0.0
+kirjoituspöytä#:#desk#;;;#0.3#;;;#0.0
+vaaleanpunainen#:#pink#;;;#0.3#;;;#0.0
+mäki#:#hill###hill#;;;#0.3#;;;#0.0
+kuulua + illat.#:#to belong to#;;;#0.3#;;;#0.0
+sinkku#:#single#;;;#0.3#;;;#0.0
+niin tietysti#:#I understand#;;;#0.3#;;;#0.0
+huono#:#bad#;;;#0.7500000000000001#;;;#0.975
+ammatti#:#profession###occupation#;;;#0.3#;;;#0.0
+kiitos avusta#:#thanks for help#;;;#0.3#;;;#0.0
+G + kuluttua#:#in###after#;;;#0.3#;;;#0.0
+silmälasit#:#glasses#;;;#0.3#;;;#0.0
+myöhemmin#:#later#;;;#0.3#;;;#0.0
+pääte#:#ending###suffix#;;;#0.3#;;;#0.0
+lasillinen#:#glass###drink#;;;#0.3#;;;#0.0
+valmistujaiset#:#graduation ceremony###graduation ceremony#;;;#0.3#;;;#0.0
+korvaushakemus#:#compensation application#;;;#0.3#;;;#0.0
+leikkipuisto#:#play ground#;;;#0.3#;;;#0.0
+kuljetus#:#transportation#;;;#0.3#;;;#0.0
+limu#:#soft drink###lemonade###soda#;;;#0.3#;;;#0.0
+mehu#:#juice#;;;#0.3#;;;#0.0
+toivoa#:#to hope#;;;#0.3#;;;#0.0
+sininen#:#blue#;;;#0.3#;;;#0.0
+tuttavaperhe#:#friends family#;;;#0.3#;;;#0.0
+on sateista#:#it’s rainy#;;;#0.3#;;;#0.0
+isä#:#father#;;;#0.3#;;;#0.0
+henkilötiedot#:#personal details#;;;#0.3#;;;#0.0
+Te-muoto#:#‘You’ form (polite form)#;;;#0.3#;;;#0.0
+epäkohtelias#:#impolite#;;;#0.3#;;;#0.0
+moi#:#hi###hello!#;;;#0.3#;;;#0.0
+G+kanssa#:#with#;;;#0.3#;;;#0.0
+helsinkiläinen#:#from Helsinki###living in Helsinki#;;;#0.3#;;;#0.0
+minkä maan pääkaupunki#:#the capital of which country#;;;#0.3#;;;#0.0
+järjestää#:#to put in order###to arrange#;;;#0.3#;;;#0.0
+haastattelu#:#interview#;;;#0.3#;;;#0.0
+työhakemus#:#job application#;;;#0.3#;;;#0.0
+huivi#:#scarf#;;;#0.3#;;;#0.0
+Minulla on jano.#:#I am thirsty.#;;;#0.3#;;;#0.0
+sairaanhoitaja#:#nurse###nurse#;;;#0.3#;;;#0.0
+ylityö#:#overwork###overtime#;;;#0.3#;;;#0.0
+paikallissijojen käyttö#:#the usage of the local cases#;;;#0.3#;;;#0.0
+hella#:#stove#;;;#0.3#;;;#0.0
+kuumenittari#:#medical thermometer#;;;#0.3#;;;#0.0
+kirjahylly#:#bookshelf#;;;#0.3#;;;#0.0
+heitä noppaa#:#roll a die#;;;#0.3#;;;#0.0
+kahviautomaatti#:#coffee machine#;;;#0.3#;;;#0.0
+parisuhde#:#relationship#;;;#0.3#;;;#0.0
+likomärkä#:#soaking wet#;;;#0.3#;;;#0.0
+kielteinen#:#negative#;;;#0.3#;;;#0.0
+jumppa#:#aerobics#;;;#0.3#;;;#0.0
+oli (olla)#:#was (to be)#;;;#0.3#;;;#0.0
+suunnitella#:#to design###to plan#;;;#0.3#;;;#0.0
+poliisi#:#police#;;;#0.3#;;;#0.0
+pääruoka#:#main course#;;;#0.3#;;;#0.0
+tuulla#:#to blow (wind)#;;;#0.3#;;;#0.0
+löyly#:#vague sauna word#;;;#0.3#;;;#0.0
+kuulostaa#:#to sound###to sound like#;;;#0.3#;;;#0.0
+raportti#:#report#;;;#0.3#;;;#0.0
+kääntyä#:#to turn#;;;#0.3#;;;#0.0
+Tuleeko muuta?#:#Will there be something else?#;;;#0.3#;;;#0.0
+keskiviikko#:#Wednesday#;;;#0.3#;;;#0.0
+meitä (me)#:#us (we)#;;;#0.3#;;;#0.0
+sovittu#:#agreed#;;;#0.3#;;;#0.0
+ikivanha#:#ancient###age old#;;;#0.3#;;;#0.0
+parveke#:#balcony#;;;#0.3#;;;#0.0
+murtaautuja#:#burglar#;;;#0.3#;;;#0.0
+vasta#:#only###sauna whisk#;;;#0.3#;;;#0.0
+kaikki#:#all###everybody#;;;#0.3#;;;#0.0
+lukio#:#secondary school###high school#;;;#0.3#;;;#0.0
+jäädä kiinni#:#to be caught#;;;#0.3#;;;#0.0
+vappu#:#May 1#;;;#0.3#;;;#0.0
+G + jälkeen#:#after#;;;#0.3#;;;#0.0
+hieno#:#fine###great###nice#;;;#0.3#;;;#0.0
+pilkkopimeä#:#pitch-dark#;;;#0.3#;;;#0.0
+päästä#:#to get###to get###after###to get into#;;;#0.3#;;;#0.0
+sekoittaa#:#to mix###to blend###to stir#;;;#0.3#;;;#0.0
+vasemmalle (vasen)#:#to the left (left)#;;;#0.3#;;;#0.0
+kuningas#:#king#;;;#0.3#;;;#0.0
+kirja#:#book#;;;#0.3#;;;#0.0
+toimitusjohtaja#:#chief executive officer###managing director#;;;#0.3#;;;#0.0
+upouusi#:#brand new#;;;#0.3#;;;#0.0
+orkesteri#:#orchestra###orchestra#;;;#0.3#;;;#0.0
+akku#:#battery###accumulator#;;;#0.3#;;;#0.0
+nojatuoli#:#arm chair#;;;#0.3#;;;#0.0
+jalkapalloharjoitukset#:#football training#;;;#0.3#;;;#0.0
+harrastaa#:#to do#;;;#0.3#;;;#0.0
+tuoda#:#to bring#;;;#0.3#;;;#0.0
+leipä#:#bread#;;;#0.3#;;;#0.0
+rekisteröity parisuhde#:#civil union#;;;#0.3#;;;#0.0
+huonosti#:#badly#;;;#0.3#;;;#0.0
+maanantaina#:#on Monday#;;;#0.3#;;;#0.0
+harjoitus#:#exercise#;;;#0.3#;;;#0.0
+toimisto#:#office#;;;#0.3#;;;#0.0
+nahkatakki#:#leather jacket#;;;#0.3#;;;#0.0
+moottori#:#engine#;;;#0.3#;;;#0.0
+bonuskortti#:#loyalty card#;;;#0.3#;;;#0.0
+viinilasi#:#wine glass#;;;#0.3#;;;#0.0
+vähän#:#(a) little###some#;;;#0.3#;;;#0.0
+saunoa#:#to take a sauna#;;;#0.3#;;;#0.0
+mäyräkoira#:#dachshund#;;;#0.3#;;;#0.0
+tavara#:#thing######stuf
