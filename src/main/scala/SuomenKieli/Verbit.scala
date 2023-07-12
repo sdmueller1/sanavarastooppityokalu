@@ -1,15 +1,23 @@
 package SuomenKieli
 
-import SuomenKieli.Verbi.{fpp, t1pattern}
 
 import scala.util.matching.Regex
 
 trait Sana:
   def vartalo:String
-trait Verbi(val text:String) extends Sana:
-  def back:Boolean = Verbi.back(text)
-  def vartalo:String
-  def ImperfektiVartalo:String
+
+
+trait Verbi(val text:String):
+  def back:Boolean = text.matches(".*(a|o|u).*")
+  def HeikkoVartalo:String = ""
+  def VahvaVartalo:String = ""
+  private def regdrop(r:Regex,os:String,as:String):String =
+    as match
+      case r(_) => os.drop(1) + as
+      case _ => os + as
+  def ImperfektiVartalo:String = regdrop(".*(a|ä|e)$".r,VahvaVartalo,"i")
+  def KonditionaaliVartalo:String = regdrop(".*e$".r,VahvaVartalo,"isi")
+
 
   // FPS -> First person singular ->  minä
   // FPP -> First person plural ->    me
@@ -18,37 +26,30 @@ trait Verbi(val text:String) extends Sana:
   // TPS -> Third person singular ->  hän
   // TPP -> Third person plural ->    he
   private def fps(stem: String): String = stem + "n"
-
   private def fpp(stem: String): String = stem + "mme"
-
   private def sps(stem: String): String = stem + "t"
-
   private def spp(stem: String): String = stem + "tte"
-
   private def tps(stem: String): String = stem + stem.takeRight(1)
   private def tpp(stem: String): String = stem + "v" + (if back then "a" else "ä") + "t"
   // Present tense
-  def fps:String = fps(vartalo)
-  def fpp:String = fpp(vartalo)
-  def sps:String = sps(vartalo)
-  def spp:String = spp(vartalo)
-  def tps:String = tps(vartalo)
-  def tpp:String = tpp(vartalo)
+  def fps:String = fps(VahvaVartalo)
+  def fpp:String = fpp(VahvaVartalo)
+  def sps:String = sps(VahvaVartalo)
+  def spp:String = spp(VahvaVartalo)
+  def tps:String = tps(VahvaVartalo)
+  def tpp:String = tpp(VahvaVartalo)
+  // Imperfect tense
+  def fpsi:String = fps(ImperfektiVartalo)
+  def fppi:String = fpp(ImperfektiVartalo)
+  def spsi:String = sps(ImperfektiVartalo)
+  def sppi:String = spp(ImperfektiVartalo)
+  def tpsi:String = tps(ImperfektiVartalo)
+  def tppi:String = tpp(ImperfektiVartalo)
+  // Perfect tense
 
 
-  // IMPERFECT TENSE CONJUGATIONS
-  // First person singular -> minä
-  def fpsi:String
-  // First person plural -> me
-  def fppi:String
-  // Second person singular -> sinä
-  def spsi:String
-  // Second person plural -> te
-  def sppi:String
-  // Third person singular -> hän
-  def tpsi:String
-  // Third person plural -> he
-  def tppi:String
+
+
 object Verbi:
   def back(text:String) = text.matches(".*(a|o|u).*")
 
@@ -82,11 +83,13 @@ loitota t6
 helpota t6
 parata t6
 */
+
 class VerbiT1(text:String) extends Verbi(text):
-  def vartalo:String = text.dropRight(1)
+  override def HeikkoVartalo:String = text.dropRight(1)
+  //def VahvaVartalo:String =
 class VerbiT2(text:String) extends Verbi(text):
   def vartalo:String = text.dropRight(2)
-  override def hän:String = vartalo
+  override def tps:String = vartalo
 class VerbiT3(text:String) extends Verbi(text):
   def vartalo:String = text.dropRight(2) + "e"
 class VerbiT4(text:String) extends Verbi(text):
