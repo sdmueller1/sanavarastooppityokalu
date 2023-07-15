@@ -11,6 +11,6 @@ object KieliOps:
 
     heikko match
       case immutable(_) => heikko
-      case stw._1(s)
+      case stw._1(s)  => s
   // Given a a strong string, spits out the weak equivalent
   def heikko(vahva:String):String = ""

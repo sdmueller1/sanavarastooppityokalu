@@ -1,194 +1,345 @@
-millainen#:#what kind; what is… like#;;;#0.3#;;;#0.0
-huomenna#:#tomorrow#;;;#0.3#;;;#0.0
-helle#:#heat###hot weather#;;;#0.3#;;;#0.0
-eronnut#:#divorced#;;;#0.3#;;;#0.0
-työskennellä#:#to work#;;;#1.0#;;;#0.0
-ystävänpäivä#:#valentines day#;;;#0.3#;;;#0.0
-se#:#it; he###she (colloq.)#;;;#0.3#;;;#0.0
-nähtävyys#:#attraction#;;;#0.3#;;;#0.0
-siksi#:#that’s why###therefore#;;;#0.3#;;;#0.0
-hyönteinen#:#insect#;;;#0.3#;;;#0.0
-Mäkelät#:#the Mäkelä family#;;;#0.3#;;;#0.0
-ennen + P#:#before#;;;#0.3#;;;#0.0
-Turku#:#a city in southwestern Finland#;;;#0.3#;;;#0.0
-hauska#:#fun###pleasant###nice###cool#;;;#0.3#;;;#0.0
-mutta#:#but#;;;#0.3#;;;#0.0
-etunimi#:#first name###given name#;;;#0.3#;;;#0.0
-työpöytä#:#desk; desktop#;;;#0.3#;;;#0.0
-Mitä kieltä sinä puhut?#:#What language do you speak?#;;;#0.3#;;;#0.0
-postpositio#:#postposition#;;;#0.3#;;;#0.0
-sisäänkäynti#:#entrance examination#;;;#0.3#;;;#0.0
+työskennellä#:#to work#;;;#0.3#;;;#0.0
 vatkata#:#to whip###to whisk###to beat#;;;#0.3#;;;#0.0
-virkailija#:#official#;;;#0.3#;;;#0.0
-tytär#:#daughter###daughter#;;;#0.3#;;;#0.0
-puhelin#:#telephone#;;;#0.3#;;;#0.0
-vitivalkoinen#:#pure white#;;;#0.3#;;;#0.0
 kaatua#:#to fall#;;;#0.3#;;;#0.0
 kuuntele (kuunnella)#:#listen (to listen)#;;;#0.3#;;;#0.0
-ensi kerta#:#next time#;;;#0.3#;;;#0.0
-villapusero#:#sweater#;;;#0.3#;;;#0.0
 heille (he)#:#to them#;;;#0.3#;;;#0.0
-veitsi#:#knife#;;;#0.3#;;;#0.0
-sisään#:#in###into###inside#;;;#0.3#;;;#0.0
-yleensä#:#generally###in general#;;;#0.3#;;;#0.0
 mennä#:#to go#;;;#0.3#;;;#0.0
-tupakka#:#tobacco###cigarette#;;;#0.3#;;;#0.0
-juhannus#:#midsummer#;;;#0.3#;;;#0.0
-bussilippu#:#bus ticket#;;;#0.3#;;;#0.0
-hedelmä#:#fruit#;;;#0.3#;;;#0.0
-Jyväskylä#:#a city in central Finland#;;;#0.3#;;;#0.0
-jo#:#already#;;;#0.3#;;;#0.0
-päivä#:#day###day#;;;#0.3#;;;#0.0
-jano#:#thirst#;;;#0.3#;;;#0.0
 päättää#:#to decide#;;;#0.3#;;;#0.0
-asiointi#:#running errands#;;;#0.3#;;;#0.0
-opiskelija#:#student#;;;#0.3#;;;#0.0
-käsimatkatavara#:#hand luggage#;;;#0.3#;;;#0.0
-koulu#:#school#;;;#0.39999999999999997#;;;#0.95
-maistuiko ruoka?#:#did you like the food?#;;;#0.3#;;;#0.0
-minua#:#me#;;;#0.3#;;;#0.0
-kitara#:#guitar###guitar#;;;#0.3#;;;#0.0
-olohuone#:#living room###sitting-room#;;;#0.3#;;;#0.0
-itä#:#East#;;;#0.3#;;;#0.0
-tämä#:#this#;;;#0.3#;;;#0.0
 rakastaa#:#to love#;;;#0.3#;;;#0.0
-hauki#:#northern pike#;;;#0.3#;;;#0.0
-koko ajan#:#all the time###all the time#;;;#0.3#;;;#0.0
-allergia#:#allergy#;;;#0.3#;;;#0.0
-kipeä#:#sore#;;;#0.3#;;;#0.0
-kuka#:#who?#;;;#0.3#;;;#0.0
-lento#:#flight#;;;#0.3#;;;#0.0
 paistaa#:#to bake###to roast###to fry#;;;#0.3#;;;#0.0
-tuli#:#fire#;;;#0.3#;;;#0.0
-jänis#:#here#;;;#0.3#;;;#0.0
-edessä#:#in front of#;;;#0.3#;;;#0.0
-joo#:#yeah###yes#;;;#0.3#;;;#0.0
-tasku#:#pocket#;;;#0.3#;;;#0.0
-ikä#:#age#;;;#0.3#;;;#0.0
-asukas#:#inhabitant###resident#;;;#0.3#;;;#0.0
-persoonapronominit#:#personal pronouns#;;;#0.3#;;;#0.0
-ruuhka#:#traffic jam###rush#;;;#0.3#;;;#0.0
 olla kihloissa#:#to be engaged#;;;#0.3#;;;#0.0
-kuski#:#driver#;;;#0.3#;;;#0.0
 keksiä#:#to come up with an idea#;;;#0.3#;;;#0.0
 mökkeillä#:#to spend time at mökki#;;;#0.3#;;;#0.0
-kirjailija#:#writer###author#;;;#0.3#;;;#0.0
-viallinen#:#defective#;;;#0.3#;;;#0.0
-melko#:#quite#;;;#0.3#;;;#0.0
-japani#:#Japanese#;;;#0.49999999999999994#;;;#0.8499999999999999
-niemi#:#peninsula#;;;#0.3#;;;#0.0
-rekkakuski#:#trucker#;;;#0.3#;;;#0.0
-hieman#:#a bit#;;;#0.3#;;;#0.0
 syttyä#:#to light#;;;#0.3#;;;#0.0
-turisti#:#tourist#;;;#0.3#;;;#0.0
-pää kipeä#:#head sore#;;;#0.3#;;;#0.0
-terassi#:#terrace###patio#;;;#0.3#;;;#0.0
-huominen#:#tomorrow#;;;#0.3#;;;#0.0
-monta kertaa#:#many times#;;;#0.3#;;;#0.0
-raha#:#money#;;;#0.3#;;;#0.0
-metalli#:#metal#;;;#0.3#;;;#0.0
-ostos#:#purchase#;;;#0.3#;;;#0.0
 uskaltaa#:#to dare###to have the courage###to have the courage#;;;#0.3#;;;#0.0
-niska#:#neck#;;;#0.3#;;;#0.0
 leipoa#:#to bake#;;;#0.3#;;;#0.0
-mistä#:#where (from)#;;;#0.3#;;;#0.0
-kirjoituspöytä#:#desk#;;;#0.3#;;;#0.0
-vaaleanpunainen#:#pink#;;;#0.3#;;;#0.0
-mäki#:#hill###hill#;;;#0.3#;;;#0.0
 kuulua + illat.#:#to belong to#;;;#0.3#;;;#0.0
-sinkku#:#single#;;;#0.3#;;;#0.0
-niin tietysti#:#I understand#;;;#0.3#;;;#0.0
-huono#:#bad#;;;#0.7500000000000001#;;;#0.975
-ammatti#:#profession###occupation#;;;#0.3#;;;#0.0
-kiitos avusta#:#thanks for help#;;;#0.3#;;;#0.0
-G + kuluttua#:#in###after#;;;#0.3#;;;#0.0
-silmälasit#:#glasses#;;;#0.3#;;;#0.0
-myöhemmin#:#later#;;;#0.3#;;;#0.0
-pääte#:#ending###suffix#;;;#0.3#;;;#0.0
-lasillinen#:#glass###drink#;;;#0.3#;;;#0.0
-valmistujaiset#:#graduation ceremony###graduation ceremony#;;;#0.3#;;;#0.0
-korvaushakemus#:#compensation application#;;;#0.3#;;;#0.0
-leikkipuisto#:#play ground#;;;#0.3#;;;#0.0
-kuljetus#:#transportation#;;;#0.3#;;;#0.0
-limu#:#soft drink###lemonade###soda#;;;#0.3#;;;#0.0
-mehu#:#juice#;;;#0.3#;;;#0.0
-toivoa#:#to hope#;;;#0.3#;;;#0.0
-sininen#:#blue#;;;#0.3#;;;#0.0
-tuttavaperhe#:#friends family#;;;#0.3#;;;#0.0
-on sateista#:#it’s rainy#;;;#0.3#;;;#0.0
-isä#:#father#;;;#0.3#;;;#0.0
-henkilötiedot#:#personal details#;;;#0.3#;;;#0.0
-Te-muoto#:#‘You’ form (polite form)#;;;#0.3#;;;#0.0
-epäkohtelias#:#impolite#;;;#0.3#;;;#0.0
-moi#:#hi###hello!#;;;#0.3#;;;#0.0
-G+kanssa#:#with#;;;#0.3#;;;#0.0
-helsinkiläinen#:#from Helsinki###living in Helsinki#;;;#0.3#;;;#0.0
-minkä maan pääkaupunki#:#the capital of which country#;;;#0.3#;;;#0.0
+toivoa#:#to hope#;;;#0.49999999999999994#;;;#1.0
 järjestää#:#to put in order###to arrange#;;;#0.3#;;;#0.0
-haastattelu#:#interview#;;;#0.3#;;;#0.0
-työhakemus#:#job application#;;;#0.3#;;;#0.0
-huivi#:#scarf#;;;#0.3#;;;#0.0
-Minulla on jano.#:#I am thirsty.#;;;#0.3#;;;#0.0
-sairaanhoitaja#:#nurse###nurse#;;;#0.3#;;;#0.0
-ylityö#:#overwork###overtime#;;;#0.3#;;;#0.0
-paikallissijojen käyttö#:#the usage of the local cases#;;;#0.3#;;;#0.0
-hella#:#stove#;;;#0.3#;;;#0.0
-kuumenittari#:#medical thermometer#;;;#0.3#;;;#0.0
-kirjahylly#:#bookshelf#;;;#0.3#;;;#0.0
-heitä noppaa#:#roll a die#;;;#0.3#;;;#0.0
-kahviautomaatti#:#coffee machine#;;;#0.3#;;;#0.0
-parisuhde#:#relationship#;;;#0.3#;;;#0.0
-likomärkä#:#soaking wet#;;;#0.3#;;;#0.0
-kielteinen#:#negative#;;;#0.3#;;;#0.0
-jumppa#:#aerobics#;;;#0.3#;;;#0.0
 oli (olla)#:#was (to be)#;;;#0.3#;;;#0.0
 suunnitella#:#to design###to plan#;;;#0.3#;;;#0.0
-poliisi#:#police#;;;#0.3#;;;#0.0
-pääruoka#:#main course#;;;#0.3#;;;#0.0
 tuulla#:#to blow (wind)#;;;#0.3#;;;#0.0
-löyly#:#vague sauna word#;;;#0.3#;;;#0.0
 kuulostaa#:#to sound###to sound like#;;;#0.3#;;;#0.0
-raportti#:#report#;;;#0.3#;;;#0.0
 kääntyä#:#to turn#;;;#0.3#;;;#0.0
-Tuleeko muuta?#:#Will there be something else?#;;;#0.3#;;;#0.0
-keskiviikko#:#Wednesday#;;;#0.3#;;;#0.0
-meitä (me)#:#us (we)#;;;#0.3#;;;#0.0
-sovittu#:#agreed#;;;#0.3#;;;#0.0
-ikivanha#:#ancient###age old#;;;#0.3#;;;#0.0
-parveke#:#balcony#;;;#0.3#;;;#0.0
-murtaautuja#:#burglar#;;;#0.3#;;;#0.0
-vasta#:#only###sauna whisk#;;;#0.3#;;;#0.0
-kaikki#:#all###everybody#;;;#0.3#;;;#0.0
-lukio#:#secondary school###high school#;;;#0.3#;;;#0.0
 jäädä kiinni#:#to be caught#;;;#0.3#;;;#0.0
-vappu#:#May 1#;;;#0.3#;;;#0.0
-G + jälkeen#:#after#;;;#0.3#;;;#0.0
-hieno#:#fine###great###nice#;;;#0.3#;;;#0.0
-pilkkopimeä#:#pitch-dark#;;;#0.3#;;;#0.0
-päästä#:#to get###to get###after###to get into#;;;#0.3#;;;#0.0
+päästä#:#to get###to get###after###to get into#;;;#0.44999999999999996#;;;#0.4499999999999995
 sekoittaa#:#to mix###to blend###to stir#;;;#0.3#;;;#0.0
 vasemmalle (vasen)#:#to the left (left)#;;;#0.3#;;;#0.0
-kuningas#:#king#;;;#0.3#;;;#0.0
-kirja#:#book#;;;#0.3#;;;#0.0
-toimitusjohtaja#:#chief executive officer###managing director#;;;#0.3#;;;#0.0
-upouusi#:#brand new#;;;#0.3#;;;#0.0
-orkesteri#:#orchestra###orchestra#;;;#0.3#;;;#0.0
-akku#:#battery###accumulator#;;;#0.3#;;;#0.0
-nojatuoli#:#arm chair#;;;#0.3#;;;#0.0
-jalkapalloharjoitukset#:#football training#;;;#0.3#;;;#0.0
 harrastaa#:#to do#;;;#0.3#;;;#0.0
 tuoda#:#to bring#;;;#0.3#;;;#0.0
-leipä#:#bread#;;;#0.3#;;;#0.0
-rekisteröity parisuhde#:#civil union#;;;#0.3#;;;#0.0
-huonosti#:#badly#;;;#0.3#;;;#0.0
-maanantaina#:#on Monday#;;;#0.3#;;;#0.0
-harjoitus#:#exercise#;;;#0.3#;;;#0.0
-toimisto#:#office#;;;#0.3#;;;#0.0
-nahkatakki#:#leather jacket#;;;#0.3#;;;#0.0
-moottori#:#engine#;;;#0.3#;;;#0.0
-bonuskortti#:#loyalty card#;;;#0.3#;;;#0.0
-viinilasi#:#wine glass#;;;#0.3#;;;#0.0
-vähän#:#(a) little###some#;;;#0.3#;;;#0.0
 saunoa#:#to take a sauna#;;;#0.3#;;;#0.0
-mäyräkoira#:#dachshund#;;;#0.3#;;;#0.0
-tavara#:#thing######stuf
+olla kiinnostunut#:#to be interested in#;;;#0.3#;;;#0.0
+ehtiä#:#to have time###to arrive on time###to catch###to make###to have time#;;;#0.3#;;;#0.0
+onnitella#:#to congratulate###congratulate#;;;#0.35#;;;#0.6749999999999997
+maistua#:#to taste###to like#;;;#0.3#;;;#0.0
+mainostaa#:#to advertise#;;;#0.3#;;;#0.0
+osallistua#:#to attend#;;;#0.3#;;;#0.0
+pyyhkiä#:#to wipe###to dry###to mop#;;;#0.3#;;;#0.0
+tupakoida#:#to smoke#;;;#0.3#;;;#0.0
+hankkia#:#to purchase#;;;#0.3#;;;#0.0
+yöpyä#:#to stay overnight###to stay overnight#;;;#0.3#;;;#0.0
+olla vuorassa#:#to be someones turn#;;;#0.3#;;;#0.0
+kirjoittaa ylioppilaaksi#:#to write the matriculation exam#;;;#0.3#;;;#0.0
+käyttää#:#to use###to use#;;;#0.3#;;;#0.0
+onkia#:#to angle###to fish#;;;#0.3#;;;#0.0
+hiihtää#:#to ski#;;;#0.3#;;;#0.0
+kysyä#:#to ask (a question)#;;;#0.3#;;;#0.0
+tutkia#:#to examine; to research###to survey#;;;#0.3#;;;#0.0
+leikata#:#to cut#;;;#0.3#;;;#0.0
+istua#:#to sit#;;;#0.3#;;;#0.0
+tilata#:#to order#;;;#0.3#;;;#0.0
+etsiä#:#to look for###to search#;;;#0.3#;;;#0.0
+kokeilla#:#to fel#;;;#0.3#;;;#0.0
+viiletä#:#to cool down#;;;#0.3#;;;#0.0
+nauraa#:#to laugh#;;;#0.3#;;;#0.0
+riippua#:#to depend#;;;#0.3#;;;#0.0
+kaataa#:#to cut down#;;;#0.3#;;;#0.0
+Lauralle#:#to Laura#;;;#0.3#;;;#0.0
+juosta#:#to run#;;;#0.3#;;;#0.0
+polttaa (tupakkaa)#:#to smoke#;;;#0.3#;;;#0.0
+surra#:#to grieve###to mourn#;;;#0.3#;;;#0.0
+tulla#:#to come#;;;#0.3#;;;#0.0
+ilmestyä#:#to come out#;;;#0.3#;;;#0.0
+pitää#:#to like###to keep###to hold###to throw#;;;#0.3#;;;#0.0
+tulla mukaan#:#to come in / along#;;;#0.3#;;;#0.0
+kuuluu#:#here: to go###to be (idiomatic use)#;;;#0.3#;;;#0.0
+käydä koulua#:#to go to school#;;;#0.3#;;;#0.0
+kuvata#:#to shoot#;;;#0.3#;;;#0.0
+tietää#:#to know#;;;#0.3#;;;#0.0
+voittaa#:#to win#;;;#0.3#;;;#0.0
+taivuttaa#:#to conjugate#;;;#0.3#;;;#0.0
+ajaa autoa#:#to drive a car#;;;#0.3#;;;#0.0
+keilata#:#to bowl#;;;#0.3#;;;#0.0
+hypätä#:#to jump#;;;#0.3#;;;#0.0
+kuunnella#:#to listen###to listen#;;;#0.3#;;;#0.0
+mihin suuntaan#:#to which direction#;;;#0.3#;;;#0.0
+siivota#:#to clean up###to do out###to tidy#;;;#0.3#;;;#0.0
+sulkea#:#to close#;;;#0.3#;;;#0.0
+kurssille#:#to the course#;;;#0.3#;;;#0.0
+tehdä kaupat#:#to close a deal#;;;#0.3#;;;#0.0
+rikkoa#:#to break in#;;;#0.3#;;;#0.0
+hakata#:#to chop#;;;#0.3#;;;#0.0
+tarvita#:#to need#;;;#0.3#;;;#0.0
+harkita#:#to consider###to think through#;;;#0.3#;;;#0.0
+jutella#:#to talk###to chat###to chat#;;;#0.3#;;;#0.0
+mainita#:#to mention#;;;#0.3#;;;#0.0
+hauska tavata#:#pleased to meet you#;;;#0.3#;;;#0.0
+saako olla..?#:#would you like to have..?#;;;#0.3#;;;#0.0
+vastoa#:#to whip with whisk#;;;#0.3#;;;#0.0
+lämmittää#:#to heat up#;;;#0.3#;;;#0.0
+huomata#:#to notice###to realize#;;;#0.3#;;;#0.0
+päätyä#:#to decide on#;;;#0.3#;;;#0.0
+päästä sisään#:#to get in#;;;#0.3#;;;#0.0
+suositella#:#to recommend#;;;#0.3#;;;#0.0
+kosia#:#to propose#;;;#0.3#;;;#0.0
+jaksaa#:#to have strength###to be able to###can###to feel up to#;;;#0.3#;;;#0.0
+harjoitella#:#to practise###to train###to rehearse###to practise#;;;#0.3#;;;#0.0
+grillata#:#to grill#;;;#0.3#;;;#0.0
+olla eronnut#:#to be divorced#;;;#0.3#;;;#0.0
+rakentaa#:#to build#;;;#0.3#;;;#0.0
+tanssia#:#to dance#;;;#0.3#;;;#0.0
+etsiä + P#:#to seach###to look for#;;;#0.35#;;;#0.8999999999999999
+haluta#:#to want#;;;#0.3#;;;#0.0
+käydä#:#to visit###to go#;;;#0.3#;;;#0.0
+myydä#:#to sell#;;;#0.3#;;;#0.0
+roikkua#:#to hang#;;;#0.3#;;;#0.0
+olla alennuksessa#:#to be on sale#;;;#0.3#;;;#0.0
+savustaa#:#to smoke#;;;#0.3#;;;#0.0
+nuukia pitkään#:#to sleep in#;;;#0.3#;;;#0.0
+tahtoa#:#to want#;;;#0.3#;;;#0.0
+viettää#:#to spend#;;;#0.3#;;;#0.0
+heittää tikkaa#:#to play darts#;;;#0.3#;;;#0.0
+asua#:#to live#;;;#0.3#;;;#0.0
+esitellä#:#to show###to present###to introduce#;;;#0.3#;;;#0.0
+erota#:#to divorce#;;;#0.3#;;;#0.0
+hymyillä#:#to smile#;;;#0.3#;;;#0.0
+olla ostoksilla#:#to shop#;;;#0.3#;;;#0.0
+nostaa#:#to lift#;;;#0.3#;;;#0.0
+hakata polttopuut#:#to chop wood#;;;#0.3#;;;#0.0
+mennä kihloihin#:#to get engaged#;;;#0.3#;;;#0.0
+hakea töitä#:#to seek for employment#;;;#0.3#;;;#0.0
+minulle#:#to me#;;;#0.3#;;;#0.0
+osata#:#can###to know how#;;;#0.3#;;;#0.0
+avata#:#to turn on###to switch on###to start###to open#;;;#0.3#;;;#0.0
+olla#:#to be#;;;#0.3#;;;#0.0
+syödä#:#to eat#;;;#0.3#;;;#0.0
+jatkaa matkaa#:#to continue the journey#;;;#0.3#;;;#0.0
+vuokrata auto#:#to rent a car#;;;#0.3#;;;#0.0
+soittaa#:#to play (instrument)###to phone###to call###to play (an instrument)#;;;#0.3#;;;#0.0
+palauttaa#:#to return#;;;#0.3#;;;#0.0
+vaihtaa#:#to change#;;;#0.3#;;;#0.0
+tarjeta#:#to be warm enough#;;;#0.3#;;;#0.0
+lämmetä#:#to heat up#;;;#0.3#;;;#0.0
+nousta pois#:#to get off#;;;#0.3#;;;#0.0
+kalastaa#:#to fish#;;;#0.3#;;;#0.0
+näyttää#:#to show#;;;#0.3#;;;#0.0
+huone täytyy luovuttaa#:#room has to be signed away#;;;#0.3#;;;#0.0
+huudahtaa#:#to exclaim#;;;#0.3#;;;#0.0
+kuulua hintaan#:#to be included in the price#;;;#0.3#;;;#0.0
+sovittaa#:#to try on###to try on#;;;#0.3#;;;#0.0
+uida#:#to swim#;;;#0.3#;;;#0.0
+hajota#:#to break down#;;;#0.3#;;;#0.0
+keskeyttää#:#to interrupt#;;;#0.3#;;;#0.0
+mennä nukkumaan#:#to go to sleep#;;;#0.3#;;;#0.0
+juoda#:#to drink#;;;#0.3#;;;#0.0
+varata hotellihuone#:#to book a hotel room#;;;#0.3#;;;#0.0
+imuroida#:#to vacuumclean###to hoover#;;;#0.3#;;;#0.0
+ilmoittaa#:#to report###to announce#;;;#0.3#;;;#0.0
+kantaa#:#to carry#;;;#0.3#;;;#0.0
+särkeä#:#to ache#;;;#0.3#;;;#0.0
+haitata#:#to matter#;;;#0.3#;;;#0.0
+auttaa#:#to help#;;;#0.3#;;;#0.0
+polvistua#:#to kneel down#;;;#0.3#;;;#0.0
+loppua#:#to end#;;;#0.3#;;;#0.0
+seisoa#:#to stand#;;;#0.3#;;;#0.0
+kävellä#:#to walk#;;;#0.3#;;;#0.0
+ilmoittautua#:#to enrol###to register#;;;#0.3#;;;#0.0
+kirjoittaa#:#to write#;;;#0.3#;;;#0.0
+maksaa lasku#:#to pay a bill#;;;#0.3#;;;#0.0
+kuulua#:#to belong#;;;#0.3#;;;#0.0
+pelata#:#to play (games)###to play#;;;#0.3#;;;#0.0
+opiskella#:#to study###to study#;;;#0.3#;;;#0.0
+pukea#:#to dress###to clothe#;;;#0.3#;;;#0.0
+ampua#:#to shoot#;;;#0.3#;;;#0.0
+yrittää#:#to try#;;;#0.3#;;;#0.0
+vihtoa#:#to whip with whisk#;;;#0.3#;;;#0.0
+samoin#:#same to you###the same###likewise#;;;#0.3#;;;#0.0
+ihastua#:#to fall in love#;;;#0.3#;;;#0.0
+sanoa#:#to say#;;;#0.3#;;;#0.0
+palata#:#to return#;;;#0.3#;;;#0.0
+todeta#:#to say###to note#;;;#0.3#;;;#0.0
+antaa#:#to give#;;;#0.3#;;;#0.0
+tuntea#:#to know#;;;#0.3#;;;#0.0
+piirtää#:#to draw#;;;#0.3#;;;#0.0
+tapahtua#:#to happen###to happen#;;;#0.3#;;;#0.0
+lähettää#:#to send#;;;#0.3#;;;#0.0
+maata#:#to lie down#;;;#0.3#;;;#0.0
+takaisin#:#to think#;;;#0.3#;;;#0.0
+tavata#:#to meet#;;;#0.3#;;;#0.0
+tarkastaa#:#to check#;;;#0.39999999999999997#;;;#0.95
+omistaa#:#to own###to possess#;;;#0.3#;;;#0.0
+löytää#:#to find###to find#;;;#0.3#;;;#0.0
+naureskella#:#to laugh#;;;#0.3#;;;#0.0
+lainata#:#to borrow###to lend#;;;#0.3#;;;#0.0
+pitää + sta/stä#:#to like#;;;#0.3#;;;#0.0
+tehdä ruokaa#:#to cook###to make food#;;;#0.3#;;;#0.0
+alkaa#:#to start###to begin#;;;#0.3#;;;#0.0
+levätä#:#to rest###to rest#;;;#0.3#;;;#0.0
+myöhään yöhön#:#late into the night#;;;#0.3#;;;#0.0
+haluaisin#:#I’d like to (have)#;;;#0.3#;;;#0.0
+leikkiä#:#to play (kids)#;;;#0.3#;;;#0.0
+kääntää#:#to translate#;;;#0.3#;;;#0.0
+häiritä#:#to disturb###to distract###to bother#;;;#0.3#;;;#0.0
+tarjota#:#to offer#;;;#0.3#;;;#0.0
+saada tilalle#:#to acquire as replacement#;;;#0.3#;;;#0.0
+hakea#:#to fetch###to go get###to collect###to pick up#;;;#0.3#;;;#0.0
+kadota#:#to disappear#;;;#0.3#;;;#0.0
+istua iltaa#:#to spend the evening#;;;#0.3#;;;#0.0
+aloittaa#:#to start###to begin#;;;#0.3#;;;#0.0
+kammata#:#to comb#;;;#0.3#;;;#0.0
+kiertää#:#to go around#;;;#0.3#;;;#0.0
+jatkaa#:#to continue#;;;#0.3#;;;#0.0
+pyöräillä#:#to cycle#;;;#0.3#;;;#0.0
+sytyttää#:#to make a fire#;;;#0.3#;;;#0.0
+ottaa aurinkoa#:#to sunbathe#;;;#0.3#;;;#0.0
+yhdistää#:#to combine###to join###to connect#;;;#0.3#;;;#0.0
+luovuttaa#:#to vacate###to sign away###X#;;;#0.3#;;;#0.0
+kirjoita (kirjoittaa)#:#write (to write)#;;;#0.3#;;;#0.0
+korjata#:#to repair###to fix###to mend###to correct###to fix#;;;#0.3#;;;#0.0
+bussipysäkille#:#to the bus stop#;;;#0.3#;;;#0.0
+varata aika#:#to make an appointment (a time)#;;;#0.3#;;;#0.0
+pelätä#:#to be scared###to fear###to be afraid###to be afraid#;;;#0.3#;;;#0.0
+myöhästyä#:#to miss#;;;#0.3#;;;#0.0
+nousta (laivaan)#:#to embark###to get on (a ship)#;;;#0.3#;;;#0.0
+pyytää#:#to request###to ask (a favour)###to ask#;;;#0.3#;;;#0.0
+olla tupakalla#:#to be smoking#;;;#0.3#;;;#0.0
+luistella#:#to skate#;;;#0.3#;;;#0.0
+kioskille#:#to the kiosk#;;;#0.3#;;;#0.0
+saada#:#to be allowed###may###can#;;;#0.3#;;;#0.0
+itkeä#:#to cry#;;;#0.3#;;;#0.0
+ei tarvitse#:#to not need#;;;#0.3#;;;#0.0
+pestä#:#to wash#;;;#0.3#;;;#0.0
+keskustella + sta/stä#:#to talk###to converse#;;;#0.3#;;;#0.0
+jäädä#:#to stay###to stop#;;;#0.3#;;;#0.0
+jakaa#:#to give###to hand out###to distribute#;;;#0.3#;;;#0.0
+tarkistaa#:#to check###to make sure#;;;#0.3#;;;#0.0
+töihin#:#to work(place)#;;;#0.3#;;;#0.0
+työmatka#:#way to work###commute#;;;#0.3#;;;#0.0
+varastaa#:#to steal#;;;#0.3#;;;#0.0
+vastaus kysymykseen#:#answer to the question#;;;#0.3#;;;#0.0
+katsoa#:#to look at###to watch###to watch#;;;#0.3#;;;#0.0
+parille#:#to the pair#;;;#0.3#;;;#0.0
+maksaa#:#to pay; to cost#;;;#0.35#;;;#0.49999999999999956
+sisälle#:#to inside#;;;#0.3#;;;#0.0
+kutsua#:#to invite#;;;#0.3#;;;#0.0
+marssia#:#to march#;;;#0.3#;;;#0.0
+keittää#:#to brew###to cook###boil###to boil#;;;#0.3#;;;#0.0
+esittää#:#to perform###to play#;;;#0.3#;;;#0.0
+kylpeä#:#to bath#;;;#0.3#;;;#0.0
+suunnata#:#to head for#;;;#0.3#;;;#0.0
+täyttää#:#to turn#;;;#0.3#;;;#0.0
+vuotaa#:#to leak###to run#;;;#0.3#;;;#0.0
+vilkuttaa#:#to wave#;;;#0.3#;;;#0.0
+tankata#:#to fill up#;;;#0.3#;;;#0.0
+nähdä#:#to see#;;;#0.3#;;;#0.0
+jatkua#:#to continue###to continue#;;;#0.35#;;;#0.975
+luulla#:#to suppose###to think###to think#;;;#0.3#;;;#0.0
+tulkita#:#to interpret#;;;#0.3#;;;#0.0
+päästä perille#:#to arrive#;;;#0.3#;;;#0.0
+tee (tehdä)#:#make (to do###to make)#;;;#0.3#;;;#0.0
+olla naimisissa#:#to be married#;;;#0.8500000000000002#;;;#0.8249999999999998
+säästää#:#to save#;;;#0.3#;;;#0.0
+olla kotoisin#:#to be (originally) from#;;;#0.3#;;;#0.0
+tulkata#:#to interpret#;;;#0.3#;;;#0.0
+valita#:#to choose#;;;#0.3#;;;#0.0
+kyllästyä#:#to tire of#;;;#0.3#;;;#0.0
+ostaa#:#to buy###to buy#;;;#0.3#;;;#0.0
+toimia#:#to work#;;;#0.3#;;;#0.0
+soida#:#to ring###to play#;;;#0.3#;;;#0.0
+ajaa#:#to drive#;;;#0.3#;;;#0.0
+matkustaa#:#to travel#;;;#0.3#;;;#0.0
+sopia#:#to suit###to be ok; to fit; to agree###to be okay###to suit#;;;#0.3#;;;#0.0
+rakastaa + P#:#to love#;;;#0.3#;;;#0.0
+olla tarjouksessa#:#to be on sale#;;;#0.3#;;;#0.0
+kenelle? (kuka)#:#to / for whom#;;;#0.3#;;;#0.0
+teen (tehdä)#:#to do###to make#;;;#0.3#;;;#0.0
+kuumeta#:#to get hot#;;;#0.3#;;;#0.0
+murtaautua#:#to break in#;;;#0.3#;;;#0.0
+Mikolle#:#to Mikko#;;;#0.3#;;;#0.0
+vastata#:#to answer#;;;#0.3#;;;#0.0
+olla oikeassa#:#to be right#;;;#0.3#;;;#0.0
+luvata#:#to promise#;;;#0.3#;;;#0.0
+valmistua#:#to graduate#;;;#0.3#;;;#0.0
+laahustaa#:#to shuffle#;;;#0.3#;;;#0.0
+ymmärtää#:#to understand#;;;#0.3#;;;#0.0
+sataa#:#to rain###it’s raining#;;;#0.3#;;;#0.0
+opetella#:#to learn#;;;#0.3#;;;#0.0
+pysähtyä#:#to stop#;;;#0.3#;;;#0.0
+kertoa#:#to tell#;;;#0.3#;;;#0.0
+päättyä#:#to end#;;;#0.3#;;;#0.0
+nousta#:#to get up###to rise#;;;#0.3#;;;#0.0
+saapua#:#to arrive#;;;#0.3#;;;#0.0
+suudella#:#to kiss#;;;#0.3#;;;#0.0
+tarkoittaa#:#to mean#;;;#0.3#;;;#0.0
+tulostaa#:#to print#;;;#0.3#;;;#0.0
+selittää#:#to explain#;;;#0.3#;;;#0.0
+tuntua#:#to geel#;;;#0.3#;;;#0.0
+opiskelijoille#:#to the students#;;;#0.3#;;;#0.0
+mitä saisi olla#:#what would you like to have#;;;#0.3#;;;#0.0
+heittää#:#to throw###to roll###to throw#;;;#0.3#;;;#0.0
+purra#:#to bite#;;;#0.3#;;;#0.0
+muuttaa#:#to move#;;;#0.3#;;;#0.0
+lentää#:#to fly#;;;#0.3#;;;#0.0
+oppia#:#to learn###to learn#;;;#0.3#;;;#0.0
+mennä kiinni#:#to shut#;;;#0.3#;;;#0.0
+neuvoa#:#to advise###to tell###to counsel###to advise#;;;#0.3#;;;#0.0
+vihkiä#:#to marry#;;;#0.3#;;;#0.0
+viihtyä#:#to feel at home#;;;#0.3#;;;#0.0
+viedä#:#to take#;;;#0.3#;;;#0.0
+pedata#:#to make (the bed)#;;;#0.3#;;;#0.0
+kukkia#:#to flower###to bloom###to blossom#;;;#0.3#;;;#0.0
+arvata#:#to guess#;;;#0.3#;;;#0.0
+hoitaa asioita#:#to run errands#;;;#0.3#;;;#0.0
+keskustella#:#to talk###to converse###to discuss#;;;#0.3#;;;#0.0
+katsella#:#to watch###to look#;;;#0.3#;;;#0.0
+viipyä#:#to stay#;;;#0.3#;;;#0.0
+olla voimassa#:#to be valid#;;;#0.3#;;;#0.0
+lukea#:#here: to be written###to read#;;;#0.3#;;;#0.0
+panna#:#to put###to set###to stick#;;;#0.3#;;;#0.0
+nukkua#:#to sleep#;;;#0.3#;;;#0.0
+lähteä mukaan#:#to come along#;;;#0.3#;;;#0.0
+herätä#:#to wake up#;;;#0.3#;;;#0.0
+juhlia#:#to celebrate###to party###to celebrate#;;;#0.3#;;;#0.0
+opettaa#:#to teach#;;;#0.3#;;;#0.0
+urheilla#:#to do sports###to exercise#;;;#0.3#;;;#0.0
+tiskata#:#to wash up###to do the dishes#;;;#0.3#;;;#0.0
+mennä naimisiin#:#to marry#;;;#0.3#;;;#0.0
+puhua#:#to speak#;;;#0.3#;;;#0.0
+kuulua (+illat.)#:#to belong to###to inlude#;;;#0.3#;;;#0.0
+kannattaa#:#to pay off###to want#;;;#0.3#;;;#0.0
+pitää puhe#:#to give a speech#;;;#0.3#;;;#0.0
+vuokrata#:#to rent#;;;#0.3#;;;#0.0
+hyppiä#:#to jump###to skip###to bounce#;;;#0.3#;;;#0.0
+heittää löylyä#:#to throw water on the sauna#;;;#0.3#;;;#0.0
+odottaa#:#to wait###to expect#;;;#0.3#;;;#0.0
+varata#:#to reserve###to book###to schedule###to book###to reserve#;;;#0.3#;;;#0.0
+tulla kylään#:#to pay a visit###to come for a visit#;;;#0.3#;;;#0.0
+laittaa#:#to set###to put#;;;#0.3#;;;#0.0
+ottaa#:#to take#;;;#0.3#;;;#0.0
+lisätä#:#to add###to insert#;;;#0.3#;;;#0.0
+kerrata#:#to review###to revise#;;;#0.3#;;;#0.0
+selailla#:#to flip through#;;;#0.3#;;;#0.0
+flunssainen#:#to be sick with a cold#;;;#0.3#;;;#0.0
+kestää#:#to take###to last###to last#;;;#0.3#;;;#0.0
+aikoa#:#to intend#;;;#0.3#;;;#0.0
+vilustunut#:#to be sick with cold#;;;#0.3#;;;#0.0
+pyrkiä#:#to apply to#;;;#0.3#;;;#0.0
+nauttia#:#to enjoy#;;;#0.3#;;;#0.0
+voida#:#can###to be able to###to be able to#;;;#0.3#;;;#0.0
+lähteä#:#to leave###to go#;;;#0.3#;;;#0.0
+vilvoitella#:#to cool off#;;;#0.3#;;;#0.0
+pakata#:#to pack#;;;#0.3#;;;#0.0
+tutustua#:#to get to know###to get acquainted###to meet#;;;#0.3#;;;#0.0
+laulaa#:#to sing###to sing#;;;#0.3#;;;#0.0
+neuvotella#:#to negotiate###to talk over#;;;#0.3#;;;#0.0
+kuunnella + P#:#to listen#;;;#0.3#;;;#0.0

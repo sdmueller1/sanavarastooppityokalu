@@ -1,3 +1,5 @@
+import LivingDictionary.fromFile
+
 import scala.math.*
 import scala.util.Random
 import org.apache.commons.math3.special.Beta
@@ -12,13 +14,16 @@ class LivingDictionary(var words:Vector[LivingWord]):
   def activelength:Int = math.max(1,activeWords.length)
   def activeWords = words.filter(_.recency > 0)
   def learnedWords = words.filter(_.score == 1)
-  def tick():Unit = activeWords.foreach(_.age())
+  def verbs:LivingDictionary =
+    LivingDictionary(words.filter(_.isVerb()))
+  def tick():Unit =
+    activeWords.foreach(_.age())
   private def randomWord(set:Vector[LivingWord]) =
     set(r.nextInt(set.length))
   def randomWord:LivingWord = randomWord(words)
   def reviewWord:LivingWord = randomWord(learnedWords)
   def nextWord:LivingWord =
-    if r.nextDouble() * 2 > 1.0 / activelength then
+    if r.nextDouble() > 0.5 / activelength then
       val probs = activeWords.map(_.relevance)
       val probsum = probs.sum
       val p = r.nextDouble()
@@ -28,9 +33,12 @@ class LivingDictionary(var words:Vector[LivingWord]):
         if total >= p then
           return activeWords(i)
     randomWord
-  def report:String =
-    "Score\tRecency\tRelevance\tWord\n" +
-    activeWords.sortBy(-_.score).map(_.toReportString).mkString("\n")
+  private def report(filterList:Vector[LivingWord]):String =
+    "Score\tRcncy.\tProb.\tWord\n" +
+    filterList.sortBy(-_.score).map(_.toReportString).mkString("\n")
+  def activeToString() = report(activeWords)
+  def learnedToString() = report(learnedWords)
+  override def toString() = report(words)
 object LivingDictionary:
   def fromFile:LivingDictionary =
     FileIO.readFile("src/dictionary.txt")
@@ -40,6 +48,8 @@ object LivingDictionary:
 
 class LivingWord(val word:DictWord, var score:Double, var recency:Double):
   def this(word:DictWord) = this(word,0.3,0)
+  def isVerb():Boolean =
+    word.definitions.foldLeft(false)(_ | _.contains("to "))
   def use():Unit =
     recency = 1.0
   def use(mark:Boolean):Unit =
@@ -62,7 +72,7 @@ class LivingWord(val word:DictWord, var score:Double, var recency:Double):
     else
       0
   def checkAnswer(s:String):Boolean =
-    word.definitions.foldLeft(false)(_ | _ == s)  
+    word.definitions.foldLeft(false)(_ | _ == s)
   def toReportString:String =
     f"$score%.3f\t$recency%.3f\t$relevance%.3f\t${word.text}"
   def toFileString:String =

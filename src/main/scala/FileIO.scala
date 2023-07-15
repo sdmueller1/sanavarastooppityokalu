@@ -1,5 +1,6 @@
 import scala.io.Source
 import java.io.*
+import com.opencsv.*
 object FileIO:
   // For purpose of initial imports and such
   def readDirtyFile(path:String):Map[String, Vector[String]] =
@@ -12,9 +13,8 @@ object FileIO:
   def readFile(path:String):LivingDictionary =
     val file = Source.fromFile(path)
     var lines = file.getLines().toVector
-    println(lines.length + " original")
+    println("Read " + lines.length + " words from file: " + path)
     lines = lines.filter(_.matches("^.*#:#.*#;;;#[-+]?[0-9]*\\.?[0-9]+#;;;#[-+]?[0-9]*\\.?[0-9]+$"))
-    println(lines.length + " filtered")
     LivingDictionary(lines.map(LivingWord.fromFileString))
   def writeFile(path:String, dict:LivingDictionary):Unit =
     val file = File(path)

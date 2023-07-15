@@ -7,11 +7,13 @@ import org.apache.commons.math3.distribution.*
 import java.nio.file.{Files, Paths}
 import java.nio.charset.StandardCharsets
 import java.io.*
+
+import scala.util.Random
 @main def run2() =
   //val dirty = FileIO.readDirtyFile("src/dictionary.txt")
   //var dict = LivingDictionary.fromMap(dirty)
   //FileIO.writeFile("src/balls.txt", dict)
-  val dict = FileIO.readFile("src/scores.txt")
+  val dict = FileIO.readFile("src/scores.txt").verbs
   while
     val w = dict.nextWord
     println("-"*15 + "\n" + w.word.text + "\n" + "-"*15)
@@ -36,12 +38,31 @@ import java.io.*
         readLine()
       case _ => w.use()
     a match
-      case "r" => println(dict.report)
+      case "r" => println(dict.activeToString())
       case _ =>
     a != "q"
   do()
   FileIO.writeFile("src/scores.txt", dict)
 @main def run3() =
-  val dict = FileIO.readFile("src/scores.txt")
-  val words = dict.words.map(_.word.text).take(50)
-  println(kptlook.replaceFirstIn("ajatella".reverse, "ff"))
+  var dict = LivingDictionary.fromMap(FileIO.readDirtyFile("src/dictionary.txt"))
+  println(dict.length)
+  FileIO.writeFile("src/test.txt", dict)
+  for i <- 0 to 1000 do
+    dict = FileIO.readFile("src/test.txt")
+    for j <- 0 to 20 do
+      dict.nextWord.use(r.nextDouble() > 0.3)
+      dict.tick()
+    FileIO.writeFile("src/test.txt", dict)
+
+
+//  var total = 0
+//  for i <- 0 to 1000 do
+//    val w = dict.nextWord
+//    dict.tick()
+//    w.use(Random.nextDouble() < 0.8)
+//    total += dict.activeWords.length
+//  println(total / 1000.0)
+//  println(dict.activeToString())
+//  println(dict.learnedToString())
+//
+//  println("Learned words: " + dict.learnedWords.length)
