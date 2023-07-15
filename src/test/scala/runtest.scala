@@ -10,10 +10,7 @@ import java.io.*
 
 import scala.util.Random
 @main def run2() =
-  //val dirty = FileIO.readDirtyFile("src/dictionary.txt")
-  //var dict = LivingDictionary.fromMap(dirty)
-  //FileIO.writeFile("src/balls.txt", dict)
-  val dict = FileIO.readFile("src/scores.txt").verbs
+  val dict = FileIO.readFile("src/scores.csv").verbs
   while
     val w = dict.nextWord
     println("-"*15 + "\n" + w.word.text + "\n" + "-"*15)
@@ -42,19 +39,19 @@ import scala.util.Random
       case _ =>
     a != "q"
   do()
-  FileIO.writeFile("src/scores.txt", dict)
+  FileIO.writeFile("src/scores.csv", dict)
 @main def run3() =
-  var dict = LivingDictionary.fromMap(FileIO.readDirtyFile("src/dictionary.txt"))
+  var dict = FileIO.readFile("src/scores.csv")
   println(dict.length)
-  FileIO.writeFile("src/test.txt", dict)
-  for i <- 0 to 1000 do
-    dict = FileIO.readFile("src/test.txt")
-    for j <- 0 to 20 do
-      dict.nextWord.use(r.nextDouble() > 0.3)
+  FileIO.writeFile("src/test.csv", dict)
+  for i <- 0 to 20 do
+    dict = FileIO.readFile("src/test.csv")
+    for j <- 0 to 1000 do
+      val w = dict.nextWord
+      w.use(r.nextDouble() < w.testProb)
       dict.tick()
-    FileIO.writeFile("src/test.txt", dict)
-
-
+    println(f"${dict.activelength}\t${dict.learnedWords.length}")
+    FileIO.writeFile("src/test.csv", dict)
 //  var total = 0
 //  for i <- 0 to 1000 do
 //    val w = dict.nextWord

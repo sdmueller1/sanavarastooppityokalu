@@ -47,18 +47,25 @@ object LivingDictionary:
 
 
 class LivingWord(val word:DictWord, var score:Double, var recency:Double):
+  def this(word:String,definitions:Seq[String],score:Double,recency:Double) = this(DictWord(word,definitions),score,recency)
   def this(word:DictWord) = this(word,0.3,0)
   def isVerb():Boolean =
     word.definitions.foldLeft(false)(_ | _.contains("to "))
   def use():Unit =
     recency = 1.0
+  var streak = 0
+  var taps = 0
+  def testProb = min(0.2 * pow(1.3, taps), 0.95)
   def use(mark:Boolean):Unit =
     recency = 1.0
     if mark then
-      score += 0.05
+      score += 0.05 + streak * 0.03
+      streak += 1
     else
       score -= 0.1
+      streak = 0
     if score > 1 then recency = 0
+    taps += 1
     score = math.min(score,1.0)
     score = math.max(score,0.0)
   def age():Unit =
@@ -77,10 +84,14 @@ class LivingWord(val word:DictWord, var score:Double, var recency:Double):
     f"$score%.3f\t$recency%.3f\t$relevance%.3f\t${word.text}"
   def toFileString:String =
     word.toFileString + "#;;;#" + score + "#;;;#" + recency
+  def toCSVWrite:Array[String] =
+    Array(word.text,word.definitions.mkString("\t"),score.toString,recency.toString)
   override def toString:String =
     word.toString
 
 object LivingWord:
+  def fromCSVArray(args:Array[String]):LivingWord =
+    LivingWord(args(0),args(1).split("\t"),args(2).toDouble,args(3).toDouble)
   def fromFileString(s:String):LivingWord =
     val parts = s.split("#;;;#")
     LivingWord(DictWord.fromFileText(parts(0)),parts(1).toDouble,parts(2).toDouble)
