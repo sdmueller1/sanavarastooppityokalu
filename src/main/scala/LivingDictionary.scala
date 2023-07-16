@@ -13,7 +13,7 @@ class LivingDictionary(var words:Vector[LivingWord]):
   def length:Int = words.length
   def activelength:Int = math.max(1,activeWords.length)
   def activeWords = words.filter(_.recency > 0)
-  def learnedWords = words.filter(_.score == 1)
+  def learnedWords = words.filter(_.score > 0.95)
   def verbs:LivingDictionary =
     LivingDictionary(words.filter(_.isVerb()))
   def tick():Unit =
@@ -22,17 +22,24 @@ class LivingDictionary(var words:Vector[LivingWord]):
     set(r.nextInt(set.length))
   def randomWord:LivingWord = randomWord(words)
   def reviewWord:LivingWord = randomWord(learnedWords)
+  def randomWeightedWord(words:Seq[LivingWord],weights:Seq[Double]):Option[LivingWord] =
+    if weights.isEmpty then
+      return None
+    val totalWeight = weights.sum
+    val rand = r.nextDouble() * totalWeight
+    var cumWeight = 0.0
+    for (word,weight) <- words.zip(weights) do
+      cumWeight += weight
+      if cumWeight >= rand then
+        return Some(word)
+    println("probability engine issue")
+    None
   def nextWord:LivingWord =
-    if r.nextDouble() > 0.5 / activelength then
-      val probs = activeWords.map(_.relevance)
-      val probsum = probs.sum
-      val p = r.nextDouble()
-      var total = 0.0
-      for i <- probs.indices do
-        total += probs(i) / probsum
-        if total >= p then
-          return activeWords(i)
-    randomWord
+    var weights = Vector.empty[Double]
+    var rand = r.nextDouble()
+    if r.nextDouble() >= 1.5 / activelength then
+      weights = activeWords.map(_.relevance)
+    randomWeightedWord(activeWords, weights).getOrElse(randomWord)
   private def report(filterList:Vector[LivingWord]):String =
     "Score\tRcncy.\tProb.\tWord\n" +
     filterList.sortBy(-_.score).map(_.toReportString).mkString("\n")
@@ -55,7 +62,9 @@ class LivingWord(val word:DictWord, var score:Double, var recency:Double):
     recency = 1.0
   var streak = 0
   var taps = 0
-  def testProb = min(0.2 * pow(1.3, taps), 0.95)
+  def tap():Unit =
+    taps += 1
+  def testProb = min(0.2 * pow(1.5, taps), 0.98)
   def use(mark:Boolean):Unit =
     recency = 1.0
     if mark then
@@ -65,7 +74,6 @@ class LivingWord(val word:DictWord, var score:Double, var recency:Double):
       score -= 0.1
       streak = 0
     if score > 1 then recency = 0
-    taps += 1
     score = math.min(score,1.0)
     score = math.max(score,0.0)
   def age():Unit =
