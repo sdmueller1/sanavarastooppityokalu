@@ -1,4 +1,4 @@
-import SuomenKieli.KieliOps.*
+import SuomenKieli.SanaOps.*
 
 import scala.io.StdIn.*
 import scala.io.Source

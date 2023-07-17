@@ -1,3 +1,4 @@
+/*
 package SuomenKieli
 
 
@@ -101,3 +102,4 @@ class VerbiT6(text:String) extends Verbi(text):
 class OutoVerbi(text:String) extends Verbi(text):
   def vartalo:String =
     ""
+*/

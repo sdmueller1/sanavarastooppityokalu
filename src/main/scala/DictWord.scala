@@ -2,7 +2,7 @@ import java.io.FileNotFoundException
 import scala.util.matching.Regex
 class DictWord(val text:String, val definitions:Seq[String]):
   def toFileString:String = text + "#:#" + definitions.mkString("###")
-  override def toString:String = text + "\n" + definitions.mkString(", ")
+  override def toString:String = text + "\n" + definitions.mkString(" | ")
 
 object DictWord:
   def fromFileText(s:String):DictWord =
