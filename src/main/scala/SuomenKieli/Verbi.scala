@@ -1,22 +1,68 @@
 package SuomenKieli
 import SanaOps.*
 
+object Verbi:
+  private object KPTengine:
+    object type1
+    
+
 class Verbi(val text:String):
-  private trait TypedVerb:
-    val PresentStem:TenseStem
-    //val ImperfectStem:TenseStem
-    //val PerfectStem:TenseStem
-    //val ConditionalStem:TenseStem
-  // Type 1 verbs end with a vowel and then a/ä
-  private class type1(text: String) extends TypedVerb:
+  private trait TypedVerb(text:String):
+    //
+    def firstInfinitive:String = text
+/*    val secondInfinitive:String
+    val thirdInfinitive:String
+    val fourthInfinitive:String
+    val fifthInfinitive:String
+
+    val strongStem:String
+    val weakStem:String
+    val activePresentParticiple:String
+    val activePastParticiple:String
+    val passivePresentParticiple:String
+    val passivePastParticiple:String
+    val agentParticiple:String
+    val potentialMood:Vector[String]
+    val presentPassive:Vector[String]
+    val negativePresentPassive:Vector[String]
+    val imperfectPassive:Vector[String]
+    val negativeImperfectPassive:Vector[String]
+    val perfectPassive:String
+
+
+
+    val present:Vector[String]
+    val imperfect:Vector[String]
+    val conditional:Vector[String]
+    val perfect:Vector[String]
+
+    val imperative:String*/
+
+    protected def imperfect(stem:String) =
+      val rem = "(a|ä|e)$".r
+      stem match
+        case rem(_) => stem.init + "i"
+        case _ => stem + "i"
+    protected def conditional(stem:String) =
+      val rem = "e$".r
+      stem match
+        case rem(_) => stem.init + "isi"
+        case _ => stem + "isi"
+    protected def perfect(stem:String) =
+      ""
+    //val PresentStem:TenseStem
+  // Type 1 verbs end with a vowel and then a/ä 
+  
+  private class type1(text:String) extends TypedVerb(text):
     val StrongStem = text.dropRight(1)
     val WeakStem = text.dropRight(1)
-    val PresentStem = new TenseStem(WeakStem,StrongStem)
-    PresentStem.ThirdPersonSingularEnding = StrongStem.takeRight(1)
+    val strengths = Vector(false,false,false,false,true,true)
+    val endings = Vector(None,None,None,None,Some(StrongStem.takeRight(1)),None)
+    val PresentStem = new TenseStem(WeakStem,StrongStem,endings=endings)
   // Type 2 verbs end with a vowel and then a/ä
-  private class type2(text: String) extends TypedVerb:
-    val stem = text.dropRight(2)
-    val PresentStem = TenseStem(stem)
+  private class type2(text: String) extends TypedVerb(text)
+  //  val stem = text.dropRight(2)
+  //  val PresentStem = TenseStem(stem)
   // Type 3 verbs end in two consonants plus a vowel
   /*private class type3(text: String) extends TypedVerb:
     val PresentStem = text.dropRight(2) + "e"
@@ -31,18 +77,21 @@ class Verbi(val text:String):
     val PresentStem = text.dropRight(2) + "ne"*/
   private def getVerbType(text:String):TypedVerb =
     text match
-      case VerbType2Pattern(_) => type2(text)
+      //case VerbType2Pattern(_) => type2(text)
       //case VerbType3Pattern(_) => type3(text)
       //case VerbType4Pattern(_) => type4(text)
       //case VerbType5Pattern(_) => type5(text)
       case _ => type1(text)
   private val self:TypedVerb = getVerbType(text)
-  val Present:TenseStem = self.PresentStem
+  //val presentti:Vector[String]     = self.present
+  //val imperfekti:Vector[String]    = self.imperfect
+  //val perfekti:Vector[String]      = self.perfect
+  //val konditionaali:Vector[String] = self.conditional
 
 private class TenseStem(
                          WeakStem:String,
                          StrongStem:String,
-                         strengths:Vector[Boolean] = Vector(false,true,true,true,true,true),
+                         strengths:Vector[Boolean] = Vector(true,true,true,true,true,true),
                          endings:Vector[Option[String]] = Vector(None,None,None,None,None,None)
                        ):
   def this(s:String) = this(s,s)

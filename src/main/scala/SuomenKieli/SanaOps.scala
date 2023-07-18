@@ -7,6 +7,7 @@ object SanaOps:
   val VerbType4Pattern:Regex = ".*(ata|ätä|ota|ötä|uta|ytä)$".r
   val VerbType5Pattern:Regex = ".*(ita|itä)$".r
   val VerbType6Pattern:Regex = ".*(eta|etä)$".r
+  
   def backMouthPosition(text:String):Boolean = text.matches(".*(a|o|u).*")
   def assimilateMouthPosition(child:String,parent:String):String =
     if backMouthPosition(parent) then
@@ -25,6 +26,9 @@ object SanaOps:
   var stw = (s"^[$consonants]*[$vowels]{1,2}pm".r, ".*".r)
   val immutable:Regex = ".*(nen|[uyoö]s)$".r
 
+  object KPTengine:
+    object Verbs:
+      object T1
   def vahva(heikko:String):String =
 
     heikko match
