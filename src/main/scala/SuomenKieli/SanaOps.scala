@@ -2,11 +2,11 @@ package SuomenKieli
 import scala.util.matching.Regex
 object SanaOps:
   val VerbType1Pattern:Regex = ".*(aa|ea|eä|ia|iä|oa|ua|yä|ää|öä)$".r
-  val VerbType2Pattern:Regex = ".*d(a|ä)$".r
-  val VerbType3Pattern:Regex = ".*(ll|nn|rr|st)(a|ä)$".r
+  val VerbType2Pattern:Regex = ".*(d[a|ä])$".r
+  val VerbType3Pattern:Regex = ".*(lla|nna|rra|sta|llä|nnä|rrä|stä)$".r
   val VerbType4Pattern:Regex = ".*(ata|ätä|ota|ötä|uta|ytä)$".r
-  val VerbType5Pattern:Regex = ".*(ita|itä)$".r
-  val VerbType6Pattern:Regex = ".*(eta|etä)$".r
+  val VerbType5Pattern:Regex = ".*(it[a|ä])$".r
+  val VerbType6Pattern:Regex = ".*(et[a|ä])$".r
   val strongMap: Map[String, String] = Map(
     "k" -> "kk",
     "p" -> "pp",
@@ -18,8 +18,8 @@ object SanaOps:
     "rr" -> "rt",
     "d" -> "t",
     "v" -> "p",
-    "lj" -> "lk",
-    "rj" -> "rk"
+    "lje" -> "lke",
+    "rje" -> "rke"
   )
   val weakMap: Map[String, String] = Map(
     "kk" -> "k",
@@ -33,8 +33,8 @@ object SanaOps:
     "t" -> "d",
     "p" -> "v",
     "k" -> "",
-    "lk" -> "lj",
-    "rk" -> "rj"
+    "lke" -> "lje",
+    "rke" -> "rje"
   )
   def backMouthPosition(text:String):Boolean = text.matches(".*(a|o|u).*")
   def assimilateMouthPosition(child:String,parent:String):String =

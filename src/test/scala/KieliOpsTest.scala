@@ -3,7 +3,9 @@ import SanaOps.*
 import scala.util.matching.Regex
 
 @main def OpsTest():Unit =
-  val test:Verbi = Verbi("nukkua")
-  println(test.presentti)
-  println(test.imperfekti)
+  val verbs = FileIO.readFile("src/scores.csv")
+    .words
+    .map(n => Verbi(n.word.text))
+    .filter(_.exists)
+  verbs.foreach(n => println(n.toString + "\n" + n.presentti.mkString(" | ")))
 
