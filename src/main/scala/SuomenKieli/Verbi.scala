@@ -7,10 +7,10 @@ private val wordStartGroup = s"(.*[$vowels])"
 private val t1end = s"([$vowels]{2})$$"
 private val t3end = s"([$vowels]+[$consonants]{2}[$vowels])$$"
 private val t4_6end = s"([$vowels][$consonants][$vowels])$$"
-private val rjegroup = s"(rje|rke|lje|lke)"
+private val rjereg = s"(.*)([rl][jk]e)([$vowels]?[$consonants]{0,2}[$vowels])".r
 
 private val t1reg = (wordStartGroup + consonantClusterGroup + t1end).r
-private val t3reg = (wordStartGroup + consonantClusterGroup + t3end).r
+val t3reg = (wordStartGroup + consonantClusterGroup + t3end).r
 private val t3reg_2 = (wordStartGroup + t3end).r
 private val t4_6reg = (wordStartGroup + consonantClusterGroup + t4_6end).r
 private val t4_6reg_2 = (wordStartGroup + t4_6end).r
@@ -20,11 +20,15 @@ private val t4_6reg_2 = (wordStartGroup + t4_6end).r
 
 private def wt1(infinitive:String):String =
   infinitive match
+    case rjereg(start,mid,end) =>
+      start + weakMap.getOrElse(mid,mid) + end
     case t1reg(start, mid, end) =>
       start + weakMap.getOrElse(mid, mid) + end
     case _ => infinitive
 private def st3(infinitive:String):String =
   infinitive match
+    case rjereg(start, mid, end) =>
+      start + strongMap.getOrElse(mid, mid) + end
     case t3reg(start, mid, end) =>
       start + strongMap.getOrElse(mid, mid) + end
     case t3reg_2(start, end) =>
@@ -32,6 +36,8 @@ private def st3(infinitive:String):String =
     case _ => infinitive
 private def st4_6(infinitive:String):String =
   infinitive match
+    case rjereg(start, mid, end) =>
+      start + strongMap.getOrElse(mid, mid) + end
     case t4_6reg(start,mid,end) =>
       start + strongMap.getOrElse(mid, mid) + end
     case t4_6reg_2(start, end) =>
@@ -141,6 +147,8 @@ class Verbi(val text:String):
       case _ => null//type1("invalidää")
   private val self:TypedVerb = getVerbType(text)
   def exists:Boolean = self != null
+  def strongStem:String = self.strongStem
+  def weakStem:String = self.weakStem
   def presentti:Vector[String]     = self.present
   def imperfekti:Vector[String]    = self.imperfect
   //val perfekti:Vector[String]      = self.perfect
