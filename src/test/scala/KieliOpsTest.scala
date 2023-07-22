@@ -5,7 +5,7 @@ import scala.util.matching.Regex
   val words = FileIO.readFile("src/wordscores.csv").words.map(_.word.text).filterNot(_.contains(" "))
   val consmap = words.map(_.map(c => if vowels.contains(c) then 'V' else 'C'))
   val freg = "(C{0,2}V+C{1,2}V?)".r
-  consmap.map {n => n match
+  consmap.map {
     case freg(s) => s
     case _ => "BBBB"
   }.toSet.foreach(println)
@@ -15,18 +15,20 @@ import scala.util.matching.Regex
   //  case _ => println())
 
 val strongMap: Map[Regex, String] = Map(
-  "[^s]?k".r -> "kk",
-  "[^s]?p".r -> "pp",
-  "[^s]?t".r -> "tt",
-  "nn".r -> "nt",
-  "ng".r -> "nk",
-  "mm".r -> "mp",
-  "ll".r -> "lt",
-  "rr".r -> "rt",
-  "d".r -> "t",
-  "v".r -> "p",
+  "[^skht]k[^skht]".r -> "kk",
+  "[^skht]p[^skht]".r -> "pp",
+  "[^skht]t[^skht]".r -> "tt",
+  "[^skht]d[^skht]".r -> "t",
+  "[uy]v[uy]".r -> "uku",
+  "[^skht]v[^skht]".r -> "p",
+  ".nn.".r -> "nt",
+  ".ng.".r -> "nk",
+  ".mm.".r -> "mp",
+  ".ll.".r -> "lt",
+  ".rr.".r -> "rt",
   "lje".r -> "lke",
-  "rje".r -> "rke"
+  "rje".r -> "rke",
+  "hke".r -> "hke"
 )
 def strengthen(str:String) = str match
   //start,middle,end
@@ -34,7 +36,8 @@ def strengthen(str:String) = str match
     s+strongMap.collectFirst((k,v)=>if(k.matches(m))v).getOrElse(m)+e
 
 @main def OpsTest():Unit =
-  val s = Sana("tyttanesdfsdn")
-
-
+  //val s = Sana("hillas")
+  //println(s.strongStem)
+  val test = strongMap.foldRight((a:Regex=>String,b:Regex=>String)=>a.)
+  println(test)
 
