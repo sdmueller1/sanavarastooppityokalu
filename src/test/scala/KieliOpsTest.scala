@@ -1,5 +1,7 @@
 import SuomenKieli.*
 import SanaOps.*
+import SanaOps.KPTEngine.*
+import SanaOps.wordTypes.*
 import scala.util.matching.Regex
 @main def wordstruct():Unit =
   val words = FileIO.readFile("src/wordscores.csv").words.map(_.word.text).filterNot(_.contains(" "))
@@ -26,18 +28,15 @@ val strongMap: Map[Regex, String] = Map(
   ".mm.".r -> "mp",
   ".ll.".r -> "lt",
   ".rr.".r -> "rt",
-  "lje".r -> "lke",
-  "rje".r -> "rke",
-  "hke".r -> "hke"
+  ".lje".r -> "lke",
+  ".rje".r -> "rke",
+  ".hje".r -> "hke"
 )
-def strengthen(str:String) = str match
-  //start,middle,end
-  case t3reg(s,m,e) =>
-    s+strongMap.collectFirst((k,v)=>if(k.matches(m))v).getOrElse(m)+e
 
 @main def OpsTest():Unit =
-  //val s = Sana("hillas")
-  //println(s.strongStem)
-  val test = strongMap.foldRight((a:Regex=>String,b:Regex=>String)=>a.)
-  println(test)
+  val s = Verbi("nukkua")
+  val s2 = Verbi("kysytä")
+  println(s.imperfekti.map(assimilate))
+  println(s2.imperfekti.map(assimilate))
+
 
