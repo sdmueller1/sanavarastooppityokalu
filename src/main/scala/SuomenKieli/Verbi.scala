@@ -90,10 +90,12 @@ class Verbi(val EnsiInfinitiivi:String):
     //val imperative:String
     protected def zipConcat(a:Vector[String],b:Vector[String]) = a.zip(b).map((c,d)=>c+d)
     protected def imperfectize(stem:String):String =
-      val rem = "(a|ä|e)$".r
+      val rem = ".*([aäei])$".r
       stem match
-        case rem(_) => stem.init + "i"
-        case _ => stem + "i"
+        case rem(s) =>
+          stem.init + "i"
+        case _ =>
+          stem + "i"
     protected def conditionalize(stem:String) =
       val rem = "e$".r
       stem match
@@ -116,6 +118,9 @@ class Verbi(val EnsiInfinitiivi:String):
     def stemize(s:String) = s.dropRight(2)
     val weakStem = stemize(text)
     val strongStem = stemize(text)
+    override def imperfectize(stem:String):String =
+      if stem.length == 3 then stem.dropRight(2) + stem.last + "i"
+      else super.imperfectize(stem)
   // Type 3 verbs end in two consonants plus a vowel
   private class type3(text: String) extends TypedVerb(text):
     def stemize(s:String) = s.dropRight(2) + "e"
@@ -126,6 +131,7 @@ class Verbi(val EnsiInfinitiivi:String):
     def stemize(s:String) = s.dropRight(2) + s.last
     val weakStem = stemize(text)
     val strongStem = stemize(gradateVerb(text))
+    override def imperfectize(stem:String):String = stem.init + "si"
   // Type 5 verbs end in i + t(a/ä)
   private class type5(text: String) extends TypedVerb(text):
     def stemize(s:String) = s.dropRight(2) + "tse"
@@ -149,10 +155,10 @@ class Verbi(val EnsiInfinitiivi:String):
   def exists:Boolean = self != null
   def strongStem:String = self.strongStem
   def weakStem:String = self.weakStem
-  def presentti:Vector[String]     = self.present
-  def imperfekti:Vector[String]    = self.imperfect
+  def presentti:Vector[String] = self.present
+  def imperfekti:Vector[String] = self.imperfect
   //val perfekti:Vector[String]      = self.perfect
-  //val konditionaali:Vector[String] = self.conditional
+  def konditionaali:Vector[String] = self.potentialMood
   override def toString:String = EnsiInfinitiivi
 
 

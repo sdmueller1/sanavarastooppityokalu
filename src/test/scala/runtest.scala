@@ -1,14 +1,7 @@
 import SuomenKieli.SanaOps.*
-
 import scala.io.StdIn.*
-import scala.io.Source
-import org.apache.commons.math3.distribution.*
-
-import java.nio.file.{Files, Paths}
-import java.nio.charset.StandardCharsets
-import java.io.*
-
 import scala.util.Random
+import SuomenKieli.*
 @main def run2() =
   val dict = FileIO.readFile("src/wordscores.csv")
   while
@@ -70,4 +63,41 @@ import scala.util.Random
 //@main def run4() =
 //  var dict = FileIO.readDirtyFile("src/dictionary.txt")
 //  FileIO.writeFile("src/wordscores.csv",LivingDictionary.fromMap(dict))
+@main def verbPractice() =
+
+  val verbs = FileIO.readFile("src/verbscores.csv")
+
+  while true do
+    val dverb = verbs.nextWord
+    val verb = Verbi(dverb.word.text)
+    if verb.exists && !verb.EnsiInfinitiivi.contains(" ") then
+      val conjugations = (verb.presentti ++ verb.imperfekti).map(assimilate)
+      verbs.tick()
+      println(conjugations(r.nextInt(conjugations.length)))
+      readLine()
+      println(dverb)
+      print("correct?: ")
+      val a = readLine()
+      a match {
+        case "y" =>
+          dverb.use(true)
+        case "n" =>
+          dverb.use(false)
+        case "q" =>
+          FileIO.writeFile("src/verbscores.csv",verbs)
+          System.exit(455)
+        case _ => println("cuck")
+      }
+      practice
+  def practice:Unit =
+    //println("Write below: ")
+    //println("Sana -> definition")
+    //println("Present: minä sinä me te hän he")
+    //println("Imperfect: minä sinä me te hän he")
+    println("minä sinä me te hän he")
+    while
+      val b = readLine()
+      b != "q"
+    do ()
+
 

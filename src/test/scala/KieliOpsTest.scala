@@ -34,9 +34,6 @@ val strongMap: Map[Regex, String] = Map(
 )
 
 @main def OpsTest():Unit =
-  val s = Verbi("nukkua")
-  val s2 = Verbi("kysytä")
-  println(s.imperfekti.map(assimilate))
-  println(s2.imperfekti.map(assimilate))
+  println(gradateVerb("lahkea"))
 
 

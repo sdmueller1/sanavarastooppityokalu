@@ -15,38 +15,23 @@ object SanaOps:
     val wtB = ".*(e|in|[aä]s|t[oö]n|t[aä]r|is)$".r
     val wtC = ".*(nen|[uy]s|[oö]s)$".r
   object KPTEngine:
-
     val strongMap: Map[String, String] = Map(
-      "k" -> "kk",
-      "p" -> "pp",
-      "t" -> "tt",
-      "d" -> "t",
-      "v" -> "p",
-      "nn" -> "nt",
-      "ng" -> "nk",
-      "mm" -> "mp",
-      "ll" -> "lt",
-      "rr" -> "rt"
+      "k" -> "kk", "p" -> "pp", "t" -> "tt", "d" -> "t", "v" -> "p", "nn" -> "nt", "ng" -> "nk", "mm" -> "mp", "ll" -> "lt", "rr" -> "rt"
     )
     val weakMap: Map[String, String] = Map(
-      "kk" -> "k",
-      "pp" -> "p",
-      "tt" -> "t",
-      "nt" -> "nn",
-      "nk" -> "ng",
-      "mp" -> "mm",
-      "lt" -> "ll",
-      "rt" -> "rr",
-      "t" -> "d",
-      "p" -> "v",
-      "k" -> ""
+      "kk" -> "k", "pp" -> "p", "tt" -> "t", "nt" -> "nn", "nk" -> "ng", "mp" -> "mm", "lt" -> "ll", "rt" -> "rr", "t" -> "d", "p" -> "v", "k" -> ""
     )
     // Some base strings built initially for convenience
     val basekpt = s"(.*)([$vowels][$consonants]{1,2}"
     val fullkpt = basekpt + s"[$vowels])"
     // Used for capturing the various small patterns within the relevant syllable
-    val (reg1,reg2,reg3,reg4) =
-      ("([^skht])([kptdv])([^skht])".r, "(.)(..)(.)".r, "(.)([lrh])[jk][ei]".r, "([uy])(k)([uy])".r)
+    val (reg1,reg2,reg3,reg4,reg5) = (
+      "(.?[^skht])([kptdv])([^skht].?)".r,
+      "(.)(..)(.)".r,
+      "(.)([lrh])[jk][ei]".r,
+      "([uy])(k)([uy])".r,
+      "(.?[^skt])(t)([^skt].?)".r
+    )
     // Groups the syllables in nonverbs
     val (wtAg,wtBg,wtCg) =
       ((basekpt + "[aäoöuyi])$").r, (fullkpt + s"([$consonants])$$").r, s".*(nen|[uyoö]s)$$".r)
@@ -65,6 +50,8 @@ object SanaOps:
     def weakenCluster(cluster:String):String = cluster match {
       case reg4(s, m, e) =>
         s + "v" + e
+      case reg5(s, m, e) =>
+        s + "d" + e
       case reg1(s, m, e) =>
         s + weakMap.getOrElse(m, m) + e
       case reg2(s, m, e) =>
@@ -73,13 +60,13 @@ object SanaOps:
         s + m + "je"
       case _ => cluster
     }
-    def gradateWord(nominative:String) = nominative match {
+    def gradateWord(nominative:String):String = nominative match {
       case wtCg(s) => nominative
       case wtAg(s,m) => s + weakenCluster(m)
       case wtBg(s,m,e) => s + strengthenCluster(m) + e
       case _ => nominative
     }
-    def gradateVerb(infinitive:String) = infinitive match {
+    def gradateVerb(infinitive:String):String = infinitive match {
       case vt1g(s,m,e) => s + weakenCluster(m) + e
       case vt3g(s,m,e) => s + strengthenCluster(m) + e
       case vt4_6g(s,m,e) => s + strengthenCluster(m) + e
